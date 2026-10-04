@@ -1,0 +1,5 @@
+{
+  "server": "",
+  "packUrl": "https://wahhawood.github.io/wahha-pack/pack.toml",
+  "nicknamePattern": "^[A-Za-z0-9_]{3,16}$"
+}
