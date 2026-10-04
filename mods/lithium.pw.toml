@@ -1,0 +1,12 @@
+name = "Lithium 0.24.7 for Neoforge"
+filename = "lithium-neoforge-0.24.7+mc26.1.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "4771c7950131f4be684ca286656632f554f36fa5"
+url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/eZ0KJiEA/lithium-neoforge-0.24.7%2Bmc26.1.2.jar"
+
+[update.modrinth]
+mod-id = "gvQqBUqZ"
+version = "eZ0KJiEA"

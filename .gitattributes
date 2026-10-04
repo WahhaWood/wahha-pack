@@ -1,0 +1,3 @@
+# packwiz requires files to be served byte-for-byte, so disable
+# line ending conversion (otherwise hashes change on Windows).
+* -text

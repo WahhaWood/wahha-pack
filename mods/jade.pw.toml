@@ -1,0 +1,12 @@
+name = "[NeoForge 26.1.X] 26.1.11"
+filename = "Jade-mc26.1-NeoForge-26.1.11.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3210f3519c9d88e8d171ce7c7660d8202c4f784b"
+url = "https://cdn.modrinth.com/data/nvQzSEkH/versions/5jKeKXwB/Jade-mc26.1-NeoForge-26.1.11.jar"
+
+[update.modrinth]
+mod-id = "nvQzSEkH"
+version = "5jKeKXwB"

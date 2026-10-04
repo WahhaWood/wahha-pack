@@ -1,0 +1,31 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "77ba910633da9d00eaa495638eb520249b162d4edb3c727d780928286516b1df"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "63e9cd399a58a3e021e16c24afceb382690998a2811b7bd1ec7ec5f644b89bf4"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "6ff0f49bb5ddddd59f1ef13d0a76c7e506ab0e1682dd7c2d465c2b7ba448f555"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "b785dda0ce6e77e89de97e66392e518e3fe20d2b9a751167bd9f026ef0a0a4d9"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "2a10d272e399ea37427d304cf47de8e1f1635a2afec06817b22b4a0bf9c9cccb"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "147991f18baf278ab79697f676332c309f61ddee25208261adb7dc4cc9d9c830"
+metafile = true

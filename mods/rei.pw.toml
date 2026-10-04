@@ -1,0 +1,12 @@
+name = "[NeoForge 26.1.2] v26.1.819"
+filename = "RoughlyEnoughItems-26.1.819.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "cb0ec295bdd2071c62ad12c38da9e4aa9ce77296"
+url = "https://cdn.modrinth.com/data/nfn13YXA/versions/isd1MxO2/RoughlyEnoughItems-26.1.819.jar"
+
+[update.modrinth]
+mod-id = "nfn13YXA"
+version = "isd1MxO2"

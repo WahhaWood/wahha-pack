@@ -1,0 +1,12 @@
+name = "[NeoForge 26.1] v26.1.154"
+filename = "cloth-config-26.1.154.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "1700599980477b0ea72608bfdadee7bdde8b9b75"
+url = "https://cdn.modrinth.com/data/9s6osm5g/versions/TimoYzse/cloth-config-26.1.154.jar"
+
+[update.modrinth]
+mod-id = "9s6osm5g"
+version = "TimoYzse"

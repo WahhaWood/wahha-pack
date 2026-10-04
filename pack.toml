@@ -1,0 +1,13 @@
+name = "Wahha Test Pack"
+author = "Wahha"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ea504c737dfd81e95e7279d8b74527a3ed650f2cb5b7f55cccde9f2b8fd48aa8"
+
+[versions]
+minecraft = "26.1.2"
+neoforge = "26.1.2.114"

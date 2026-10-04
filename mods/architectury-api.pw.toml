@@ -1,0 +1,12 @@
+name = "[NeoForge 26.1.2] v20.1.16"
+filename = "architectury-neoforge-20.1.16.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "de13193e76414c3ebff9069551bb5e633603c1b7"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/9PW5lWrQ/architectury-neoforge-20.1.16.jar"
+
+[update.modrinth]
+mod-id = "lhGA9TYQ"
+version = "9PW5lWrQ"
