@@ -2,5 +2,7 @@
   "server": "195.222.161.130:25565",
   "packUrl": "https://wahhawood.github.io/wahha-pack/pack.toml",
   "manifestUrl": "https://wahhawood.github.io/wahha-pack/manifest.json",
-  "nicknamePattern": "^[A-Za-z0-9_]{3,16}$"
+  "nicknamePattern": "^[A-Za-z0-9_]{3,16}$",
+  "defaultMinRam": 6144,
+  "defaultMaxRam": 8192
 }
