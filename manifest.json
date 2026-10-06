@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.1",
+  "packVersion": "v8.2-wahha.2",
   "minecraft": "1.21.1",
   "neoforge": "21.1.251",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.1/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.2/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -12,8 +12,8 @@
     },
     {
       "name": "mods-1.zip",
-      "sha256": "41f3e57f4399d2fbac89f379e198faa7ea7dc6c6224c1a58e719c59c94a143e6",
-      "size": 13963600
+      "sha256": "5166e1509ea1ee27ee3dc9f862a0a730f0de0c02b72d4e3e07516108ece9cae2",
+      "size": 15486830
     },
     {
       "name": "mods-2.zip",
@@ -22,8 +22,8 @@
     },
     {
       "name": "mods-3.zip",
-      "sha256": "5e0dfa9d9f12130b6331fdc72c05554faa565612fc86206f25714de070008604",
-      "size": 57686137
+      "sha256": "3f0394c2acf5b7aaddb6f6fb75cec19fb6bf9435cf7f89756fd6e9a68ea7d333",
+      "size": 58545631
     },
     {
       "name": "mods-4.zip",
@@ -37,7 +37,7 @@
     },
     {
       "name": "mods-6.zip",
-      "sha256": "5cdfa88b57f6f11c90ecdb618c69ed8417074a3e77d05731c14a439876c04270",
+      "sha256": "812701b299a738544067265e882f48a33820b9a66b0039018dc110b0e5d0f0c1",
       "size": 83069438
     },
     {
@@ -67,8 +67,8 @@
     },
     {
       "name": "mods-c.zip",
-      "sha256": "97857153244176a061ac5c192aff11fbadd35895bc6eeecf8af657907fa93d7f",
-      "size": 72394630
+      "sha256": "ad29cb84f89aee5291c3846b6da89156d892f3a35a9577b007c03ee6e3c09ae1",
+      "size": 73307072
     },
     {
       "name": "mods-d.zip",
@@ -82,13 +82,13 @@
     },
     {
       "name": "mods-f.zip",
-      "sha256": "12e4c5bdab08750f7e175e87bb308319e188abae6ff1a317badc626b783e3861",
-      "size": 17835817
+      "sha256": "c06e23639f856a3ba335293c05d31a80253748ecdf6c261477e9f0936089d4b8",
+      "size": 90979608
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "5a4c4c379386739abf69b65e832f15975e33ed8e4cc5e0397e2139d5eeda8c77",
-      "size": 12944031
+      "sha256": "3ae9ca3add9a9056d2aa561a6bc14a5bb94a2449aab76175ea3d5b3b72da7ac7",
+      "size": 12946877
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "48031147d7f186ea9d83c9104e6aef8b3dfc87cf1f8414f26feed2aaff0acc86",
+      "sha256": "30c0595693717022c75f513c9e973562c2984f5d002edc2371a5cb5080cd5a06",
       "size": 168026
     }
   ],
@@ -278,6 +278,7 @@
     "create_aquatic_ambitions-1.21.1-2.0.4.jar",
     "create_hypertube-0.6.0-NEOFORGE.jar",
     "createaddition-1.7.1.jar",
+    "createminecolonies-1.5.jar",
     "cristellib-neoforge-1.21.1-3.1.7.jar",
     "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
     "cupboard-1.21.1-4.2.jar",
@@ -287,6 +288,7 @@
     "darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar",
     "deimos-1.21.1-neoforge-2.7.jar",
     "disenchanting_table-merged-1.21.1-5.0.2.jar",
+    "domum-ornamentum-1.0.236-snapshot-main.jar",
     "dummmmmmy-1.21-2.1.2-neoforge.jar",
     "dyenamics-1.21.1-3.4.2.jar",
     "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
@@ -375,6 +377,7 @@
     "merequester-neoforge-1.21.1-1.5.0.jar",
     "mezz_config-1.21.1-neoforge-0.6.3.jar",
     "mifa-neoforge-1.21.x-2.1.0.jar",
+    "minecolonies-1.1.1403-1.21.1.jar",
     "mininggadgets-1.18.8.jar",
     "mob_grinding_utils-1.1.10+mc1.21.1.jar",
     "modelfix-1.21-1.10.jar",
@@ -441,6 +444,7 @@
     "soulplied_energistics-1.0.3.jar",
     "spark-1.10.124-neoforge.jar",
     "storagedelight-26.09.17-1.21-neoforge.jar",
+    "structurize-1.0.835-1.21.1-snapshot.jar",
     "stylecolonies-1.15.59-1.21.1.jar",
     "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
     "supermartijn642corelib-1.1.24a-neoforge-mc1.21.jar",
@@ -710,10 +714,10 @@
     "config/ars_nouveau/glyph_wither.toml",
     "config/ars_nouveau/reset.toml",
     "config/ars_nouveau/rewind.toml",
-    "config/ars_nouveau/search_index/_5.cfe",
-    "config/ars_nouveau/search_index/_5.cfs",
-    "config/ars_nouveau/search_index/_5.si",
-    "config/ars_nouveau/search_index/segments_6",
+    "config/ars_nouveau/search_index/_6.cfe",
+    "config/ars_nouveau/search_index/_6.cfs",
+    "config/ars_nouveau/search_index/_6.si",
+    "config/ars_nouveau/search_index/segments_7",
     "config/ars_nouveau/search_index/write.lock",
     "config/ars_nouveau/wololo.toml",
     "config/ars_ocultas/base-server.toml",
@@ -1013,6 +1017,7 @@
     "config/create_hypertube-client.toml",
     "config/create_hypertube-server.toml",
     "config/createaddition-common.toml",
+    "config/createminecolonies-common.toml",
     "config/crepperoverhaul-client.jsonc",
     "config/cristellib/ae2/structure_placement_config.json5",
     "config/cristellib/ae2/structure_toggle_config.json5",
@@ -2170,6 +2175,8 @@
     "config/memorysettings.json",
     "config/merequester-common.toml",
     "config/mezz_config/client/default/settings.ini",
+    "config/minecolonies-client.toml",
+    "config/minecolonies-common.toml",
     "config/mininggadgets-common.toml",
     "config/mob_grinding_utils-server.toml",
     "config/modelfix-client.toml",
@@ -2343,6 +2350,7 @@
     "config/spark/config.json",
     "config/spark/tmp-client/about.txt",
     "config/spark/tmp/about.txt",
+    "config/structurize-client.toml",
     "config/supplementaries-client-1.toml.bak",
     "config/supplementaries-client.toml",
     "config/supplementaries-common-1.toml.bak",
