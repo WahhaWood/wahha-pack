@@ -2,7 +2,7 @@
   "pack": "ATM10-Wahha",
   "packVersion": "v8.2-wahha.2",
   "minecraft": "1.21.1",
-  "neoforge": "21.1.251",
+  "neoforge": "21.1.255",
   "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.2/",
   "files": [
     {

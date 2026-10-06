@@ -146,7 +146,7 @@ def main():
                     help="Версия сборки (по умолчанию = tag)")
     ap.add_argument("--repo", default="WahhaWood/wahha-pack")
     ap.add_argument("--minecraft", default="1.21.1")
-    ap.add_argument("--neoforge", default="21.1.251")
+    ap.add_argument("--neoforge", default="21.1.255")
     args = ap.parse_args()
 
     profile = os.path.abspath(os.path.expanduser(args.profile))
