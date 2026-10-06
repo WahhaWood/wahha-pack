@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.2",
+  "packVersion": "v8.2-wahha.3",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.2/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.3/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -42,8 +42,8 @@
     },
     {
       "name": "mods-7.zip",
-      "sha256": "6eb18faddf45e21c930e99d7405ee6bc3a7b879c7150e0fea6d51e0dae1f71a9",
-      "size": 27587487
+      "sha256": "7800a4c6444d1f25d0440fcfa9fb35c9bfe544f84854b23e272e666506a729b2",
+      "size": 33650668
     },
     {
       "name": "mods-8.zip",
@@ -77,8 +77,8 @@
     },
     {
       "name": "mods-e.zip",
-      "sha256": "413d47db59b842daede8ebb14c84ce83b5d1ed64d1b7e30dd85ee5320b7b2c6a",
-      "size": 75465762
+      "sha256": "505d43b858989620937ddc0f8006a4c0f80ed2d7089a33e9a2b7bda3b3896c6f",
+      "size": 69402892
     },
     {
       "name": "mods-f.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "3ae9ca3add9a9056d2aa561a6bc14a5bb94a2449aab76175ea3d5b3b72da7ac7",
-      "size": 12946877
+      "sha256": "15ac45c49cff340270876ac927f14b7c10354f96263c02ab3c9ce0c6dacb0708",
+      "size": 12952712
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,8 +97,8 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "30c0595693717022c75f513c9e973562c2984f5d002edc2371a5cb5080cd5a06",
-      "size": 168026
+      "sha256": "0dd629f4944aa3a4b6b15c4cff404f2095f34fda53d1ac45de47c51df8673c58",
+      "size": 167924
     }
   ],
   "mods": [
@@ -342,7 +342,7 @@
     "incontrol-1.21-10.3.0.jar",
     "industrial-foregoing-souls-1.21.1-1.10.7.jar",
     "industrialforegoing-1.21-3.6.39.jar",
-    "industrialreforged-1.0.0.jar",
+    "industrialreforged-1.0.1.jar",
     "invtweaks-1.21.1-1.3.2.jar",
     "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
     "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
@@ -714,10 +714,10 @@
     "config/ars_nouveau/glyph_wither.toml",
     "config/ars_nouveau/reset.toml",
     "config/ars_nouveau/rewind.toml",
-    "config/ars_nouveau/search_index/_6.cfe",
-    "config/ars_nouveau/search_index/_6.cfs",
-    "config/ars_nouveau/search_index/_6.si",
-    "config/ars_nouveau/search_index/segments_7",
+    "config/ars_nouveau/search_index/_b.cfe",
+    "config/ars_nouveau/search_index/_b.cfs",
+    "config/ars_nouveau/search_index/_b.si",
+    "config/ars_nouveau/search_index/segments_c",
     "config/ars_nouveau/search_index/write.lock",
     "config/ars_nouveau/wololo.toml",
     "config/ars_ocultas/base-server.toml",
@@ -2142,6 +2142,7 @@
     "config/jei/jei-client.ini",
     "config/jei/jei-client.ini.bak.1",
     "config/jei/world/local/Новый мир/lookupHistory.json",
+    "config/jei/world/server/Сервер Minecraft (195_222_161_130)/lookupHistory.json",
     "config/jei_mekanism_multiblocks-client.toml",
     "config/jeistuff-common.toml",
     "config/journeymap-server.toml",
@@ -2177,6 +2178,7 @@
     "config/mezz_config/client/default/settings.ini",
     "config/minecolonies-client.toml",
     "config/minecolonies-common.toml",
+    "config/minecolonies-server.toml",
     "config/mininggadgets-common.toml",
     "config/mob_grinding_utils-server.toml",
     "config/modelfix-client.toml",
@@ -2351,6 +2353,7 @@
     "config/spark/tmp-client/about.txt",
     "config/spark/tmp/about.txt",
     "config/structurize-client.toml",
+    "config/structurize-server.toml",
     "config/supplementaries-client-1.toml.bak",
     "config/supplementaries-client.toml",
     "config/supplementaries-common-1.toml.bak",
