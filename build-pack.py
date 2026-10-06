@@ -11,6 +11,8 @@
   overlay-config.zip       — config/ + defaultconfigs/
   kubejs-assets.zip        — kubejs/assets/ (тяжёлое, меняется редко)
   kubejs-code.zip          — остальной kubejs (скрипты, data, config)
+  shaderpacks.zip          — shaderpacks/*.zip (шейдеры требует EuphoriaPatcher;
+                             без них висит красная ошибка SHADER NOT FOUND)
 
 Плюс manifest.json с SHA-256 каждого архива, списком модов (чистка
 устаревших jar) и списком файлов оверлея (чистка удалённых конфигов —
@@ -107,10 +109,24 @@ def collect_overlay(profile):
     if not os.path.isdir(kubejs_root):
         sys.exit(f"Нет обязательной папки kubejs в профиле: {profile}")
     assets_root = os.path.join(kubejs_root, "assets") + os.sep
+    # kubejs целиком минус assets
+    kubejs_root = os.path.join(profile, "kubejs")
+    if not os.path.isdir(kubejs_root):
+        sys.exit(f"Нет обязательной папки kubejs в профиле: {profile}")
+    assets_root = os.path.join(kubejs_root, "assets") + os.sep
     for rel, full in walk_files(profile, kubejs_root):
         if full.startswith(assets_root):
             continue
         result.append(("kubejs-code.zip", rel, full))
+    # Шейдеры: только zip из корня (распакованные папки и чужое не тащим).
+    # EuphoriaPatcher требует Complementary в папке, иначе красная ошибка.
+    shaders_root = os.path.join(profile, "shaderpacks")
+    if os.path.isdir(shaders_root):
+        for fn in sorted(os.listdir(shaders_root)):
+            full = os.path.join(shaders_root, fn)
+            if os.path.isfile(full) and fn.endswith(".zip"):
+                result.append(("shaderpacks.zip",
+                               os.path.join("shaderpacks", fn), full))
     return result
 
 
@@ -175,7 +191,7 @@ def main():
     overlay_groups = {}
     for archive, arc, full in overlay:
         overlay_groups.setdefault(archive, []).append((arc, full))
-    for archive in ("overlay-config.zip", "kubejs-assets.zip", "kubejs-code.zip"):
+    for archive in ("overlay-config.zip", "kubejs-assets.zip", "kubejs-code.zip", "shaderpacks.zip"):
         if overlay_groups.get(archive):
             archives.append((archive, overlay_groups[archive]))
 

@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.3",
+  "packVersion": "v8.2-wahha.4",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.3/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.4/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -99,6 +99,11 @@
       "name": "kubejs-code.zip",
       "sha256": "0dd629f4944aa3a4b6b15c4cff404f2095f34fda53d1ac45de47c51df8673c58",
       "size": 167924
+    },
+    {
+      "name": "shaderpacks.zip",
+      "sha256": "0d924353424bdf7fa479b496de684ab91dce25ca56dfad8d4566d3de3b3e4580",
+      "size": 3506254
     }
   ],
   "mods": [
@@ -4196,6 +4201,11 @@
     "kubejs/startup_scripts/Mekanism/Compatibility.js",
     "kubejs/startup_scripts/Shrink/polylib_fix.js",
     "kubejs/startup_scripts/incompatible_versions.js",
-    "kubejs/startup_scripts/update_checker.js"
+    "kubejs/startup_scripts/update_checker.js",
+    "shaderpacks/BSL_v10.1.1 + Clrwl_1.0.5.zip",
+    "shaderpacks/BSL_v10.1.1.zip",
+    "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+    "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+    "shaderpacks/MakeUp-UltraFast-9.5e.zip"
   ]
 }
