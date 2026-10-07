@@ -63,6 +63,9 @@ OVERLAY_EXCLUDE_PARTS = ("/search_index/", "jei/world/", "/xray/")
 
 def is_overlay_junk(rel):
     low = rel.replace(os.sep, "/").lower()
+    # XRay запрещён в сборке целиком — ни мод, ни его конфиги.
+    if "xray" in low:
+        return True
     if low.endswith(OVERLAY_EXCLUDE_SUFFIXES):
         return True
     return any(p in low for p in OVERLAY_EXCLUDE_PARTS)

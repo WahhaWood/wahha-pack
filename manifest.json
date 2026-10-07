@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.5",
+  "packVersion": "v8.2-wahha.6",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.5/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.6/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -37,8 +37,8 @@
     },
     {
       "name": "mods-6.zip",
-      "sha256": "8e61beb8949b6988f1f990b057c96b8cb6dd8faf5e8a37e599b8c39094279e71",
-      "size": 83193632
+      "sha256": "812701b299a738544067265e882f48a33820b9a66b0039018dc110b0e5d0f0c1",
+      "size": 83069438
     },
     {
       "name": "mods-7.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "0016bc5ae29b4a4270789e818a111d14bcacb0dae5049d744b43d02ec9da351f",
-      "size": 12808225
+      "sha256": "5d00fc4726fa69440e73ab298be36bee28229f3e2668a7766bf5c6b2d49d0d21",
+      "size": 12807732
     },
     {
       "name": "kubejs-assets.zip",
@@ -212,7 +212,6 @@
     "ZeroCore2-1.21.1-2.4.21.jar",
     "accelerated-decay-neoforge-21.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
-    "advanced-xray-neoforge-21.0.0.jar",
     "ae2ct-1.21.1-1.1.1.jar",
     "ae2importexportcard-1.21.1-1.9.0.jar",
     "ae2jeiintegration-1.2.1.jar",
@@ -2354,7 +2353,6 @@
     "config/waterconfig.toml",
     "config/waystones-common.toml",
     "config/wstweaks.cfg",
-    "config/xray-client.toml",
     "config/yacl.json5",
     "defaultconfigs/ftbessentials-server.snbt",
     "defaultconfigs/ftbultimine/ftbultimine-server.snbt",
