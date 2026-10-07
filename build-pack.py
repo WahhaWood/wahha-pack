@@ -55,6 +55,18 @@ MODS_SHARDS = 16
 # Служебный мусор лаунчеров внутри mods/ — никогда не часть сборки.
 MODS_EXCLUDE_DIRS = {".index", "_disabled_orphans"}
 
+# Игровой мусор внутри config/kubejs — генерируется при игре, личный или
+# пересоздаётся сам (поисковые индексы, бекапы, JEI-закладки, XRay-стор).
+OVERLAY_EXCLUDE_SUFFIXES = (".bak", ".backup", "_backup2", ".etag")
+OVERLAY_EXCLUDE_PARTS = ("/search_index/", "jei/world/", "/xray/")
+
+
+def is_overlay_junk(rel):
+    low = rel.replace(os.sep, "/").lower()
+    if low.endswith(OVERLAY_EXCLUDE_SUFFIXES):
+        return True
+    return any(p in low for p in OVERLAY_EXCLUDE_PARTS)
+
 
 def sha256_of(path):
     h = hashlib.sha256()
@@ -140,7 +152,11 @@ def walk_files(profile, root):
             if os.path.islink(full):
                 print(f"  пропуск симлинка: {os.path.relpath(full, profile)}")
                 continue
-            out.append((os.path.relpath(full, profile), full))
+            rel = os.path.relpath(full, profile)
+            if is_overlay_junk(rel):
+                print(f"  пропуск мусора: {rel}")
+                continue
+            out.append((rel, full))
     return out
 
 
