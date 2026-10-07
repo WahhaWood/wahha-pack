@@ -43,7 +43,8 @@ CLIENT_ONLY_MODS = {
     "chat_heads-0.15.7-neoforge-1.21.jar",
     "Highlighter-1.21-neoforge-1.1.11.jar",
     "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
-    "watut-neoforge-1.21.0-1.2.7.jar",
+    # NB: watut специально НЕ исключён — его канал обязателен на сервере,
+    # без мода на сервере клиент вылетает с Connection Lost.
     "AsyncParticles-21.1.4.5+1.21.1.jar",
     "BadOptimizations-2.4.1-1.21.1.jar",
     "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
