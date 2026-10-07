@@ -57,15 +57,12 @@ MODS_EXCLUDE_DIRS = {".index", "_disabled_orphans"}
 
 # Игровой мусор внутри config/kubejs — генерируется при игре, личный или
 # пересоздаётся сам (поисковые индексы, бекапы, JEI-закладки, XRay-стор).
-OVERLAY_EXCLUDE_SUFFIXES = (".bak", ".backup", "_backup2", ".etag")
+OVERLAY_EXCLUDE_SUFFIXES = (".bak", ".backup", "_backup1", "_backup2", ".etag")
 OVERLAY_EXCLUDE_PARTS = ("/search_index/", "jei/world/", "/xray/")
 
 
 def is_overlay_junk(rel):
     low = rel.replace(os.sep, "/").lower()
-    # XRay запрещён в сборке целиком — ни мод, ни его конфиги.
-    if "xray" in low:
-        return True
     if low.endswith(OVERLAY_EXCLUDE_SUFFIXES):
         return True
     return any(p in low for p in OVERLAY_EXCLUDE_PARTS)

@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.7",
+  "packVersion": "v8.2-wahha.8",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.7/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.8/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -12,7 +12,7 @@
     },
     {
       "name": "mods-1.zip",
-      "sha256": "2170ed00ce67a86e9e1b733dc6a749fddccac380746805b421e9abb923e05db7",
+      "sha256": "8af7c78bb346c0fc1f22f9fdef2c5e193b1286322caec356db85cead06adf9e0",
       "size": 18811833
     },
     {
@@ -32,13 +32,13 @@
     },
     {
       "name": "mods-5.zip",
-      "sha256": "ae7978e7f2ba777ed343fb679b88561aceeec49d213bbf02cbf0d0daa8a72428",
+      "sha256": "847a22387afb3fa981e056b7094474cd478eee0c88a4b5ef5366d76719523fee",
       "size": 97123565
     },
     {
       "name": "mods-6.zip",
-      "sha256": "9f8b6fb90475171ddce363d2efe17bc922f2cd86a161832885646cebeaa72182",
-      "size": 83278606
+      "sha256": "5b09b17ffc094b34927dd8227f9ac35a7a6cbfc9af2487865e8e06762244a0b8",
+      "size": 83402800
     },
     {
       "name": "mods-7.zip",
@@ -47,18 +47,18 @@
     },
     {
       "name": "mods-8.zip",
-      "sha256": "fca9e178946ccd4964bc036678ef9f0d3e4942c9bb1ba056cbd4968ed1d8fd97",
+      "sha256": "5a628994d71694a6b172933fd642fed5b5308748a45b72525f8498098cb5b5a5",
       "size": 25513351
     },
     {
       "name": "mods-9.zip",
-      "sha256": "5f470e03fa6c2f38e276a36995b9a24933a1c1d21edcf7be92b83d6e7fe5eed5",
+      "sha256": "231339adcbbc91bdfb7e64866ccec98258368b357a5697939c615d987a311940",
       "size": 13992949
     },
     {
       "name": "mods-a.zip",
-      "sha256": "55ceb97db530d32f4e24530b5aba73c407bc2577003dceee1e095b051eda1808",
-      "size": 46425665
+      "sha256": "dd85c088e1311019c34d1881d4fd2a30576486c125b68041ea914e99cd519d2b",
+      "size": 46427580
     },
     {
       "name": "mods-b.zip",
@@ -72,23 +72,23 @@
     },
     {
       "name": "mods-d.zip",
-      "sha256": "cf7340227f81f67d84fd1896217cb79c395e8cd7328220ae7e179d8bb069e9ac",
+      "sha256": "a436f05b09656a75d76c9eebfe35edf15f65c86d11fb3384535aa66c8f026839",
       "size": 41096899
     },
     {
       "name": "mods-e.zip",
-      "sha256": "9fd8503c0db2ccc4de4fb6f5ed33e5d9e96843217df32a911d071a3d97e6e1f2",
+      "sha256": "5832a5b09677be40b6e414825f34d5c95be5260e01340ca949c1248dcb5724ea",
       "size": 66455027
     },
     {
       "name": "mods-f.zip",
-      "sha256": "8091a6f62ff7f642ad777de5473ba6bf23ae2f5af16c29be7a1118b0f072f61c",
+      "sha256": "365397e99d3630dbef9cd66eec3d820f579cb86c8f7b97fc6707aa23c3c8e853",
       "size": 91391091
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "f79cac023a35e24ed400148440a04feccead63928ad8c65d731ed9967daa8098",
-      "size": 12805841
+      "sha256": "0b6549f5f9fdeef84b33bc64619eb28e998eb332f02b04a3dd29cf5b8c6f9e46",
+      "size": 12806334
     },
     {
       "name": "kubejs-assets.zip",
@@ -216,6 +216,7 @@
     "ZeroCore2-1.21.1-2.4.21.jar",
     "accelerated-decay-neoforge-21.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
+    "advanced-xray-neoforge-21.0.0.jar",
     "ae2ct-1.21.1-1.1.1.jar",
     "ae2importexportcard-1.21.1-1.9.0.jar",
     "ae2jeiintegration-1.2.1.jar",
@@ -2359,6 +2360,7 @@
     "config/waterconfig.toml",
     "config/waystones-common.toml",
     "config/wstweaks.cfg",
+    "config/xray-client.toml",
     "config/yacl.json5",
     "defaultconfigs/ftbessentials-server.snbt",
     "defaultconfigs/ftbultimine/ftbultimine-server.snbt",
