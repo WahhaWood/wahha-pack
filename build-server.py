@@ -38,6 +38,12 @@ SERVERFILES_KEEP = (
 
 # Клиентские моды из профиля — на сервер НЕ едут.
 CLIENT_ONLY_MODS = {
+    "AmbientSounds_NEOFORGE_v6.3.9_mc1.21.1.jar",
+    "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+    "chat_heads-0.15.7-neoforge-1.21.jar",
+    "Highlighter-1.21-neoforge-1.1.11.jar",
+    "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+    "watut-neoforge-1.21.0-1.2.7.jar",
     "AsyncParticles-21.1.4.5+1.21.1.jar",
     "BadOptimizations-2.4.1-1.21.1.jar",
     "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",

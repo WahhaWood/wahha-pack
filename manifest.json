@@ -1,19 +1,19 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.6",
+  "packVersion": "v8.2-wahha.7",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.6/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.7/",
   "files": [
     {
       "name": "mods-0.zip",
-      "sha256": "a66031b020c0cd6b26089e46978bab2fce489a47d898771447f63b08e493e142",
+      "sha256": "fcc7b18dc8d5bf4406932944ee908921fde472d2527d1fa102eb491dcffd39c1",
       "size": 70212838
     },
     {
       "name": "mods-1.zip",
-      "sha256": "277cb55b7c98fab5957766c8e2779d731e820d35b77805018c3d29f35eeeceab",
-      "size": 18517138
+      "sha256": "2170ed00ce67a86e9e1b733dc6a749fddccac380746805b421e9abb923e05db7",
+      "size": 18811833
     },
     {
       "name": "mods-2.zip",
@@ -32,13 +32,13 @@
     },
     {
       "name": "mods-5.zip",
-      "sha256": "8dc2b89dd23857c7198d627817e6f804e29a4f6f05d87b147651a12ce55789da",
-      "size": 12318988
+      "sha256": "ae7978e7f2ba777ed343fb679b88561aceeec49d213bbf02cbf0d0daa8a72428",
+      "size": 97123565
     },
     {
       "name": "mods-6.zip",
-      "sha256": "812701b299a738544067265e882f48a33820b9a66b0039018dc110b0e5d0f0c1",
-      "size": 83069438
+      "sha256": "9f8b6fb90475171ddce363d2efe17bc922f2cd86a161832885646cebeaa72182",
+      "size": 83278606
     },
     {
       "name": "mods-7.zip",
@@ -47,17 +47,17 @@
     },
     {
       "name": "mods-8.zip",
-      "sha256": "52565f97d31dba17a6c2c73d1455e57a5856cdeb70793c2b1be6f3b14d83f07c",
-      "size": 19447535
+      "sha256": "fca9e178946ccd4964bc036678ef9f0d3e4942c9bb1ba056cbd4968ed1d8fd97",
+      "size": 25513351
     },
     {
       "name": "mods-9.zip",
-      "sha256": "6fbefe71a8ccd117ea7126682e25753aa0a010044e081bba051d54d10f930ce7",
-      "size": 13966825
+      "sha256": "5f470e03fa6c2f38e276a36995b9a24933a1c1d21edcf7be92b83d6e7fe5eed5",
+      "size": 13992949
     },
     {
       "name": "mods-a.zip",
-      "sha256": "e2070b010f16a920ad30e92c94a9efb97b77ade542441af81edf898626645968",
+      "sha256": "55ceb97db530d32f4e24530b5aba73c407bc2577003dceee1e095b051eda1808",
       "size": 46425665
     },
     {
@@ -67,28 +67,28 @@
     },
     {
       "name": "mods-c.zip",
-      "sha256": "880e427335464aab687a3b20589901f599bdce00b0c2fc5b1b4287b645349275",
-      "size": 79371759
+      "sha256": "ad29cb84f89aee5291c3846b6da89156d892f3a35a9577b007c03ee6e3c09ae1",
+      "size": 73307072
     },
     {
       "name": "mods-d.zip",
-      "sha256": "91f23f1068d421f19b0b73b18e7e31e13eae6a32ff4769ae2408f50213e44201",
-      "size": 40816139
+      "sha256": "cf7340227f81f67d84fd1896217cb79c395e8cd7328220ae7e179d8bb069e9ac",
+      "size": 41096899
     },
     {
       "name": "mods-e.zip",
-      "sha256": "5239b5556eae27a1468d365e175cfaaa708f790ab8a7c0957f4bd602eb383a5d",
-      "size": 66372652
+      "sha256": "9fd8503c0db2ccc4de4fb6f5ed33e5d9e96843217df32a911d071a3d97e6e1f2",
+      "size": 66455027
     },
     {
       "name": "mods-f.zip",
-      "sha256": "c06e23639f856a3ba335293c05d31a80253748ecdf6c261477e9f0936089d4b8",
-      "size": 90979608
+      "sha256": "8091a6f62ff7f642ad777de5473ba6bf23ae2f5af16c29be7a1118b0f072f61c",
+      "size": 91391091
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "5d00fc4726fa69440e73ab298be36bee28229f3e2668a7766bf5c6b2d49d0d21",
-      "size": 12807732
+      "sha256": "f79cac023a35e24ed400148440a04feccead63928ad8c65d731ed9967daa8098",
+      "size": 12805841
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "395d69d7ae2b475fd4fd7cf125cff69633c48cc9f0892b240625a48b5b520d68",
+      "sha256": "b853cc20310f93298fe8aa31967702f99796a09139bf486c5296268bf5fcc27b",
       "size": 167924
     },
     {
@@ -111,6 +111,7 @@
     "AI-Improvements-1.21-0.5.3.jar",
     "AdvancedAE-1.6.12-1.21.1.jar",
     "AkashicTome-1.8-30.jar",
+    "AmbientSounds_NEOFORGE_v6.3.9_mc1.21.1.jar",
     "Apotheosis-1.21.1-8.8.0.jar",
     "ApothicAttributes-1.21.1-2.10.1.jar",
     "ApothicEnchanting-1.21.1-1.6.2.jar",
@@ -121,6 +122,7 @@
     "AsyncParticles-21.1.4.5+1.21.1.jar",
     "BadOptimizations-2.4.1-1.21.1.jar",
     "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+    "BetterF3-11.0.3-NeoForge-1.21.1.jar",
     "BrandonsCore-1.21.1-3.2.1.309.jar",
     "BridgingMod-2.6.2+1.21.1.neoforge-release.jar",
     "Byzantine-1.21.1-51.jar",
@@ -156,8 +158,10 @@
     "Glodium-1.21-2.2-neoforge.jar",
     "GravitationalModulatingAdditionalUnit-1.21.1-6.4.jar",
     "HellishTrials-neoforge-1.0.5.jar",
+    "Highlighter-1.21-neoforge-1.1.11.jar",
     "Iceberg-1.21.1-neoforge-1.3.2.jar",
     "ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar",
+    "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
     "IrisSearch-1.8.1-neoforge.jar",
     "Jade-1.21.1-NeoForge-15.10.6.jar",
     "JustEnoughMekanismMultiblocks-1.21.1-7.21.jar",
@@ -257,6 +261,7 @@
     "camol-1.21.1-0.3.1.jar",
     "catjammies-1.21-1.7.1.jar",
     "charginggadgets-1.14.1.jar",
+    "chat_heads-0.15.7-neoforge-1.21.jar",
     "chloride-NEOFORGE-mc1.21.1-v1.8.1.jar",
     "cleanswing-1.10-1.21.jar",
     "cloth-config-15.0.140-neoforge.jar",
@@ -338,6 +343,7 @@
     "fzzy_config-0.7.7+1.21+neoforge.jar",
     "geckolib-neoforge-1.21.1-4.9.3.jar",
     "getittogetherdrops-neoforge-1.21.5-1.4.jar",
+    "gravestone-neoforge-1.21.1-1.0.40.jar",
     "guideme-21.1.19.jar",
     "handcrafted-neoforge-1.21.1-4.0.3.jar",
     "hardenedarmadillos-1.21.1-0.2.0.jar",
@@ -348,7 +354,7 @@
     "incontrol-1.21-10.3.0.jar",
     "industrial-foregoing-souls-1.21.1-1.10.7.jar",
     "industrialforegoing-1.21-3.6.39.jar",
-    "industrialreforged-1.0.2.jar",
+    "industrialreforged-1.0.3.jar",
     "invtweaks-1.21.1-1.3.2.jar",
     "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
     "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
@@ -473,6 +479,7 @@
     "utilitarian-1.21.1-0.19.2.jar",
     "valhelsia_core-neoforge-1.21.1-1.1.5.jar",
     "villagesandpillages-neoforge-mc1.21.1-1.0.3.jar",
+    "watut-neoforge-1.21.0-1.2.7.jar",
     "waystones-neoforge-1.21.1-21.1.45.jar",
     "wits-neoforge-1.3.1.jar",
     "yeetusexperimentus-neoforge-87.0.0.jar",
@@ -949,7 +956,6 @@
     "config/ccl.cfg",
     "config/charginggadgets-server.toml",
     "config/chloride-client.toml",
-    "config/chloride-client.toml_backup1",
     "config/chunky/config.json",
     "config/cobblegengalore-common.toml",
     "config/colorfulhearts.toml",
