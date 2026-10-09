@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.13",
+  "packVersion": "v8.2-wahha.14",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.13/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.14/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -32,8 +32,8 @@
     },
     {
       "name": "mods-5.zip",
-      "sha256": "56e993a1fa0d50095b92a5036442e66be8f331bba83b54f80ee2995211a950de",
-      "size": 100153872
+      "sha256": "847a22387afb3fa981e056b7094474cd478eee0c88a4b5ef5366d76719523fee",
+      "size": 97123565
     },
     {
       "name": "mods-6.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "ffe04ce300274c3018eed5fe8ba038dfd828c5ec2bfad69b6707f49109c9df02",
-      "size": 38930287
+      "sha256": "84dc0e563c438f01af023038d0be9f8ec5ac994cabc477909d869031f9dfa26d",
+      "size": 41960594
     },
     {
       "name": "mods-b.zip",
@@ -470,7 +470,7 @@
     "t_and_t-fabric-neoforge-1.13.11.jar",
     "tesseract-api-neoforge-1.12.16-1.21.1.jar",
     "thaumcraft-1.0.5.jar",
-    "thaumicenergistics-1.0.4.jar",
+    "thaumicenergistics-1.0.5.jar",
     "tiab-neoforge-6.5.4.jar",
     "titanium-1.21-4.0.50.jar",
     "torchmaster-neoforge-1.21.1-21.1.12.jar",
