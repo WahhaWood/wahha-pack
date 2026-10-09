@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.9",
+  "packVersion": "v8.2-wahha.10",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.9/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.10/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -47,8 +47,8 @@
     },
     {
       "name": "mods-8.zip",
-      "sha256": "5a628994d71694a6b172933fd642fed5b5308748a45b72525f8498098cb5b5a5",
-      "size": 25513351
+      "sha256": "52565f97d31dba17a6c2c73d1455e57a5856cdeb70793c2b1be6f3b14d83f07c",
+      "size": 19447535
     },
     {
       "name": "mods-9.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "dd85c088e1311019c34d1881d4fd2a30576486c125b68041ea914e99cd519d2b",
-      "size": 46427580
+      "sha256": "2dc2e151565f9980e2761dadacb63dfbe198268bc0cd08ebe46089f3726a887d",
+      "size": 52494020
     },
     {
       "name": "mods-b.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "d5f0c2efb7b8530a544d83ad0520a56e263ee664c7f4ea43cf8a3786ab0f9d87",
-      "size": 12812100
+      "sha256": "f4199421003ae66715095b4d20d7c03a42665955aecb5d482444b61139aeb9e5",
+      "size": 12813292
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "e77e7f913ddeee7c4a9e3a944188e6f818aa0a37b3d80b1a8a97a7e8b7fa2841",
+      "sha256": "70a3cf00600a19785eea95d8eb6d8f82035864cfefba60fd72cf106f7afca2a7",
       "size": 167924
     },
     {
@@ -357,7 +357,7 @@
     "incontrol-1.21-10.3.0.jar",
     "industrial-foregoing-souls-1.21.1-1.10.7.jar",
     "industrialforegoing-1.21-3.6.39.jar",
-    "industrialreforged-1.0.3.jar",
+    "industrialreforged-1.0.5-beta.jar",
     "invtweaks-1.21.1-1.3.2.jar",
     "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
     "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
@@ -550,6 +550,7 @@
     "config/almostunified/startup.json",
     "config/almostunified/tags.json",
     "config/almostunified/unification/materials.json",
+    "config/ambientsounds-client.json",
     "config/amendments-client.toml",
     "config/amendments-common.toml",
     "config/apotheosis/apotheosis.cfg",
@@ -1004,6 +1005,7 @@
     "config/create_hypertube-server.toml",
     "config/createaddition-common.toml",
     "config/createminecolonies-common.toml",
+    "config/creativecore-client.json",
     "config/crepperoverhaul-client.jsonc",
     "config/cristellib/ae2/structure_placement_config.json5",
     "config/cristellib/ae2/structure_toggle_config.json5",
