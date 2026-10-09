@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.11",
+  "packVersion": "v8.2-wahha.12",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.11/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.12/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "5617080e99c750b84f3e3febd27f11c535d345d672cbcb31958dea3c13610480",
-      "size": 38928272
+      "sha256": "ffe04ce300274c3018eed5fe8ba038dfd828c5ec2bfad69b6707f49109c9df02",
+      "size": 38930287
     },
     {
       "name": "mods-b.zip",
