@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.16",
+  "packVersion": "v8.2-wahha.17",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.16/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.17/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "ffe04ce300274c3018eed5fe8ba038dfd828c5ec2bfad69b6707f49109c9df02",
-      "size": 38930287
+      "sha256": "421af612e6cb8161d41a31c24a3bbd0dec5e8e0c976fa9f0cbdc22f16adaf91d",
+      "size": 38930455
     },
     {
       "name": "mods-b.zip",
@@ -67,8 +67,8 @@
     },
     {
       "name": "mods-c.zip",
-      "sha256": "ad29cb84f89aee5291c3846b6da89156d892f3a35a9577b007c03ee6e3c09ae1",
-      "size": 73307072
+      "sha256": "5ad6d2e52aaf54a92b9f9d54148615dee3628df3b93132ba2755949a3771afe7",
+      "size": 73436301
     },
     {
       "name": "mods-d.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "85c0827f975b4e9a09306f6f5f95f07a5487fcdbbeb923aa119349b67b43a80e",
-      "size": 12815385
+      "sha256": "88df2ed2ef2cde5e96194f254ec90b16cacff8b0f6ca4ee380b88c17934ab826",
+      "size": 12815387
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "82a766efb30f5b976b018f55f92d339d3cf3b36c0f8941a9fd45be3dfb007c98",
+      "sha256": "507efb070291a61cce8d546fb399dc395810cd95126fb1364e7c403dff1892e9",
       "size": 167924
     },
     {
@@ -266,6 +266,7 @@
     "charginggadgets-1.14.1.jar",
     "chat_heads-0.15.7-neoforge-1.21.jar",
     "chloride-NEOFORGE-mc1.21.1-v1.8.1.jar",
+    "chunkloaders-1.2.9-neoforge-mc1.21.jar",
     "cleanswing-1.10-1.21.jar",
     "cloth-config-15.0.140-neoforge.jar",
     "cobblegengalore-1.21.1-0.2.9.jar",
