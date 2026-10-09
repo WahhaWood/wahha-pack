@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.10",
+  "packVersion": "v8.2-wahha.11",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.10/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.11/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -12,8 +12,8 @@
     },
     {
       "name": "mods-1.zip",
-      "sha256": "8af7c78bb346c0fc1f22f9fdef2c5e193b1286322caec356db85cead06adf9e0",
-      "size": 18811833
+      "sha256": "6716bf3e0816df7e0dc5f631b640c0f36d6a6d15230eab7ec162fe0bea18307f",
+      "size": 15781525
     },
     {
       "name": "mods-2.zip",
@@ -32,13 +32,13 @@
     },
     {
       "name": "mods-5.zip",
-      "sha256": "847a22387afb3fa981e056b7094474cd478eee0c88a4b5ef5366d76719523fee",
-      "size": 97123565
+      "sha256": "56e993a1fa0d50095b92a5036442e66be8f331bba83b54f80ee2995211a950de",
+      "size": 100153872
     },
     {
       "name": "mods-6.zip",
-      "sha256": "5b09b17ffc094b34927dd8227f9ac35a7a6cbfc9af2487865e8e06762244a0b8",
-      "size": 83402800
+      "sha256": "ff1cf45608b486ab42c3ab54243c38174c75437af318cc6bfc3b1333bd783c80",
+      "size": 96977584
     },
     {
       "name": "mods-7.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "2dc2e151565f9980e2761dadacb63dfbe198268bc0cd08ebe46089f3726a887d",
-      "size": 52494020
+      "sha256": "5617080e99c750b84f3e3febd27f11c535d345d672cbcb31958dea3c13610480",
+      "size": 38928272
     },
     {
       "name": "mods-b.zip",
@@ -77,8 +77,8 @@
     },
     {
       "name": "mods-e.zip",
-      "sha256": "5832a5b09677be40b6e414825f34d5c95be5260e01340ca949c1248dcb5724ea",
-      "size": 66455027
+      "sha256": "4aa4aaff2f4d4a308521c3e6e97c8be24248955dffb777e91cd1c83dd13ec46d",
+      "size": 66721529
     },
     {
       "name": "mods-f.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "f4199421003ae66715095b4d20d7c03a42665955aecb5d482444b61139aeb9e5",
-      "size": 12813292
+      "sha256": "1dd2ffff9e9fea26e723e26b724c2c82f93cb489ec14df97b015c330cf9d1587",
+      "size": 12814487
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "70a3cf00600a19785eea95d8eb6d8f82035864cfefba60fd72cf106f7afca2a7",
+      "sha256": "63b8c0fe91041f4c609dfb3154cbbfb1e7ef9e5f7220e040fea0165d23d04b89",
       "size": 167924
     },
     {
@@ -259,6 +259,7 @@
     "botania-neoforge-1.21.1-1.0.1.jar",
     "buildinggadgets2-1.3.9.jar",
     "bwncr-neoforge-1.21.1-3.20.4.jar",
+    "cable_facades-1.21.1-neoforge-2.1.4.jar",
     "caelus-neoforge-7.0.1+1.21.1.jar",
     "camol-1.21.1-0.3.1.jar",
     "catjammies-1.21-1.7.1.jar",
@@ -468,8 +469,8 @@
     "sussysniffers-1.21.1-0.1.3.jar",
     "t_and_t-fabric-neoforge-1.13.11.jar",
     "tesseract-api-neoforge-1.12.16-1.21.1.jar",
-    "thaumcraft-1.0.2.jar",
-    "thaumicenergistics-1.0.2.jar",
+    "thaumcraft-1.0.4.jar",
+    "thaumicenergistics-1.0.4.jar",
     "tiab-neoforge-6.5.4.jar",
     "titanium-1.21-4.0.50.jar",
     "torchmaster-neoforge-1.21.1-21.1.12.jar",
@@ -1006,6 +1007,7 @@
     "config/createaddition-common.toml",
     "config/createminecolonies-common.toml",
     "config/creativecore-client.json",
+    "config/creativecore.json",
     "config/crepperoverhaul-client.jsonc",
     "config/cristellib/ae2/structure_placement_config.json5",
     "config/cristellib/ae2/structure_toggle_config.json5",
@@ -1122,6 +1124,9 @@
     "config/dummmmmmy-common.toml",
     "config/dungeon_crawl.toml",
     "config/dynamic_fps.json",
+    "config/dynamiclights.cfg",
+    "config/dynamiclights_droppeditems.cfg",
+    "config/dynamiclights_selflight.cfg",
     "config/easy_villagers-client.toml",
     "config/easy_villagers-server.toml",
     "config/elevatorid-server.toml",
