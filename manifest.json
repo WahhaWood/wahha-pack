@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.19",
+  "packVersion": "v8.2-wahha.20",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.19/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.20/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -62,8 +62,8 @@
     },
     {
       "name": "mods-b.zip",
-      "sha256": "ae4dcc45efecd8f1d97b52f36c3fefbebd1e82bd4bea2b5a5bae6aecdfc79a99",
-      "size": 24844999
+      "sha256": "2f9bad159deac09c9039d8f7a3fe636aea1b9881a5b61baecaad52a43e99fb79",
+      "size": 23524242
     },
     {
       "name": "mods-c.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "596599b1486e0297ecf1d0776660f51962d0b28d0d04e008a2527a8efd0fd623",
-      "size": 12816064
+      "sha256": "7a6480370a6f0ec3909d6eb3e18cb31aed61a5c033979803ffe389fb220404bd",
+      "size": 12816798
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "801e6a5b1dc844b1c3802cf0eb0d5dc2fc20f4fbc01113b08220e6b14d7f06b6",
+      "sha256": "9912423b9a68236ee946046576da1e5ed36791d27305e37d8df393dd227502e3",
       "size": 167924
     },
     {
@@ -320,7 +320,6 @@
     "evilcraft-1.21.1-neoforge-1.2.96-1106.jar",
     "expandedae-2.1.3.jar",
     "experiencelib-1.21.1-1.2.1.jar",
-    "extendedae_plus-1.6.3.jar",
     "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
     "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
     "ferritecore-7.0.3-neoforge.jar",
@@ -1155,6 +1154,7 @@
     "config/extended_industrialization-client.toml",
     "config/extended_industrialization-startup.toml",
     "config/extendedae-common.toml",
+    "config/extendedae_plus-client.toml",
     "config/extremereactors/client.toml",
     "config/extremereactors/common.toml",
     "config/extremesoundmuffler-client.toml",
