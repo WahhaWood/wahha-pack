@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.17",
+  "packVersion": "v8.2-wahha.18",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.17/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.18/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -17,8 +17,8 @@
     },
     {
       "name": "mods-2.zip",
-      "sha256": "6ddf013ecab2208b9d971e7b412df3c8ea502b421411df89c4e6f49f4b75b82d",
-      "size": 50995148
+      "sha256": "cd0cacab8bf6e14b8b0b256d650a234d09c145f6db84f091733c0c8329242750",
+      "size": 37419490
     },
     {
       "name": "mods-3.zip",
@@ -42,8 +42,8 @@
     },
     {
       "name": "mods-7.zip",
-      "sha256": "6eb18faddf45e21c930e99d7405ee6bc3a7b879c7150e0fea6d51e0dae1f71a9",
-      "size": 27587487
+      "sha256": "f971b4d7b12394b94cd12aa4325503b807fdd4379c7f416a5911ca7d8c963bf1",
+      "size": 41163244
     },
     {
       "name": "mods-8.zip",
@@ -57,8 +57,8 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "421af612e6cb8161d41a31c24a3bbd0dec5e8e0c976fa9f0cbdc22f16adaf91d",
-      "size": 38930455
+      "sha256": "9bf549e71667217f2479a3c7fc8b178df898fe88cec18dc45378a6f50fde7dce",
+      "size": 38932510
     },
     {
       "name": "mods-b.zip",
@@ -67,8 +67,8 @@
     },
     {
       "name": "mods-c.zip",
-      "sha256": "5ad6d2e52aaf54a92b9f9d54148615dee3628df3b93132ba2755949a3771afe7",
-      "size": 73436301
+      "sha256": "e418526dd202cbf36650d2a4a52f70284ce854c76f0c782786838a46ab61c952",
+      "size": 73477185
     },
     {
       "name": "mods-d.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "88df2ed2ef2cde5e96194f254ec90b16cacff8b0f6ca4ee380b88c17934ab826",
-      "size": 12815387
+      "sha256": "241b525ad9f9c656c48cb58d010cef11978bb410dc43b24b51b80d94907073fa",
+      "size": 12816054
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "507efb070291a61cce8d546fb399dc395810cd95126fb1364e7c403dff1892e9",
+      "sha256": "32882dca39aaaf4bac8a75a0af6388d977a41f7ecab59edd77ff88694a936464",
       "size": 167924
     },
     {
@@ -218,6 +218,7 @@
     "accelerated-decay-neoforge-21.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
     "advanced-xray-neoforge-21.0.0.jar",
+    "ae2channels-1.1.4.jar",
     "ae2ct-1.21.1-1.1.1.jar",
     "ae2importexportcard-1.21.1-1.9.0.jar",
     "ae2jeiintegration-1.2.1.jar",
@@ -470,7 +471,7 @@
     "sussysniffers-1.21.1-0.1.3.jar",
     "t_and_t-fabric-neoforge-1.13.11.jar",
     "tesseract-api-neoforge-1.12.16-1.21.1.jar",
-    "thaumcraft-1.0.5.3.jar",
+    "thaumcraft-1.0.5.4.jar",
     "thaumicenergistics-1.0.5.1.jar",
     "tiab-neoforge-6.5.4.jar",
     "titanium-1.21-4.0.50.jar",
@@ -965,6 +966,7 @@
     "config/charginggadgets-server.toml",
     "config/chat_heads.json5",
     "config/chloride-client.toml",
+    "config/chunkloaders-common.toml",
     "config/chunky/config.json",
     "config/cobblegengalore-common.toml",
     "config/colorfulhearts.toml",
