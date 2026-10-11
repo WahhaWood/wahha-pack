@@ -38,6 +38,7 @@ blueprints, screenshots, downloads, mods/.index, mods/_disabled_orphans.
 """
 
 import argparse
+import datetime
 import hashlib
 import json
 import os
@@ -160,10 +161,21 @@ def walk_files(profile, root):
     return out
 
 
-def write_zip(path, entries):
+def write_zip(path, entries, stamp=None):
+    """stamp — (Y, M, D, h, m, s) для принудительной переупаковки: содержимое то же,
+    но байты и SHA всех архивов меняются, и лаунчер перекачивает всё целиком."""
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
         for arc, full in entries:
-            zf.write(full, arc)
+            if stamp is None:
+                zf.write(full, arc)
+            else:
+                # Тот же формат, что даёт zf.write, но с заданным временем.
+                zi = zipfile.ZipInfo(arc, date_time=stamp)
+                zi.create_system = 3
+                zi.external_attr = (os.stat(full).st_mode & 0xFFFF) << 16
+                zi.compress_type = zipfile.ZIP_DEFLATED
+                with open(full, "rb") as f:
+                    zf.writestr(zi, f.read())
     return os.path.getsize(path)
 
 
@@ -179,6 +191,9 @@ def main():
     ap.add_argument("--repo", default="WahhaWood/wahha-pack")
     ap.add_argument("--minecraft", default="1.21.1")
     ap.add_argument("--neoforge", default="21.1.255")
+    ap.add_argument("--force-refresh", action="store_true",
+                    help="Переупаковать всё с новым штампом времени: содержимое то же, "
+                         "но все SHA изменятся и лаунчер перекачает сборку целиком.")
     args = ap.parse_args()
 
     profile = os.path.abspath(os.path.expanduser(args.profile))
@@ -211,9 +226,12 @@ def main():
         if overlay_groups.get(archive):
             archives.append((archive, overlay_groups[archive]))
 
+    stamp = datetime.datetime.now().timetuple()[:6] if args.force_refresh else None
+    if stamp:
+        print(f"Force-refresh: штамп {stamp} — все архивы сменят SHA.")
     print("Паковка…")
     for archive, entries in archives:
-        write_zip(os.path.join(out, archive), entries)
+        write_zip(os.path.join(out, archive), entries, stamp)
 
     base_url = (f"https://github.com/{args.repo}"
                 f"/releases/download/{args.tag}/")
