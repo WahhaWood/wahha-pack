@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.26",
+  "packVersion": "v8.2-wahha.27",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.26/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.27/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "50261423ce3574850c92765ae4cf3d630b4766b34f3984d015b2ec377459f973",
-      "size": 12816097
+      "sha256": "cb17395381c953e743bc255c72a04851708003fecb3db34664ff2b0283e18eb5",
+      "size": 12815820
     },
     {
       "name": "kubejs-assets.zip",
@@ -1145,7 +1145,6 @@
     "config/enderio/modded-conduits-common.toml",
     "config/entangled-common.toml",
     "config/entityculling.json",
-    "config/euphoria_patcher/.data.json",
     "config/euphoria_patcher/settings.toml",
     "config/evilcraft-common.toml",
     "config/expandedae-common.toml",

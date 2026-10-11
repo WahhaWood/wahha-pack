@@ -22,7 +22,8 @@
 local, logs, crash-reports, dynamic-*-cache, .cache, .mixin.out, .sable,
 libraries-integratedscripting, shaderpacks/resourcepacks пользователя,
 options.txt, usercache.json, servers.dat/hotbar.nbt (симлинки), ESM,
-blueprints, screenshots, downloads, mods/.index, mods/_disabled_orphans.
+blueprints, screenshots, downloads, mods/.index, mods/_disabled_orphans,
+config/euphoria_patcher/.data.json (рантайм-стейт мода, держит лок).
 
 Использование:
   python3 build-pack.py --tag v8.2-wahha.1
@@ -61,9 +62,18 @@ MODS_EXCLUDE_DIRS = {".index", "_disabled_orphans"}
 OVERLAY_EXCLUDE_SUFFIXES = (".bak", ".backup", "_backup1", "_backup2", ".etag")
 OVERLAY_EXCLUDE_PARTS = ("/search_index/", "jei/world/", "/xray/")
 
+# Точное исключение (сравнение в нижнем регистре, см. is_overlay_junk):
+# рантайм-состояние EuphoriaPatcher — shaderHash/EPVersion ТЕКУЩЕЙ машины,
+# мод пересоздаёт файл сам при отсутствии. Игра держит его открытым, и запись
+# синка в него = EPERM + смерть всего обновления на Windows (v26: 11 падений
+# подряд на этом файле). settings.toml рядом — настоящий конфиг, пакуется.
+OVERLAY_EXCLUDE_FILES = {"config/euphoria_patcher/.data.json"}
+
 
 def is_overlay_junk(rel):
     low = rel.replace(os.sep, "/").lower()
+    if low in OVERLAY_EXCLUDE_FILES:
+        return True
     if low.endswith(OVERLAY_EXCLUDE_SUFFIXES):
         return True
     return any(p in low for p in OVERLAY_EXCLUDE_PARTS)
@@ -194,6 +204,10 @@ def main():
     ap.add_argument("--force-refresh", action="store_true",
                     help="Переупаковать всё с новым штампом времени: содержимое то же, "
                          "но все SHA изменятся и лаунчер перекачает сборку целиком.")
+    ap.add_argument("--zip-stamp", default=None, metavar="ГГГГММДДччммсс",
+                    help="Пин штампа времени в zip (подразумевает force-refresh). "
+                         "Точечная дельта поверх force-релиза: неизменившиеся архивы "
+                         "побайтово совпадут с ним и пропустятся лаунчером.")
     args = ap.parse_args()
 
     profile = os.path.abspath(os.path.expanduser(args.profile))
@@ -226,8 +240,15 @@ def main():
         if overlay_groups.get(archive):
             archives.append((archive, overlay_groups[archive]))
 
-    stamp = datetime.datetime.now().timetuple()[:6] if args.force_refresh else None
-    if stamp:
+    if args.zip_stamp:
+        stamp = datetime.datetime.strptime(args.zip_stamp, "%Y%m%d%H%M%S").timetuple()[:6]
+    elif args.force_refresh:
+        stamp = datetime.datetime.now().timetuple()[:6]
+    else:
+        stamp = None
+    if args.zip_stamp:
+        print(f"Пин штампа {stamp} — неизменившиеся архивы совпадут побайтово.")
+    elif stamp:
         print(f"Force-refresh: штамп {stamp} — все архивы сменят SHA.")
     print("Паковка…")
     for archive, entries in archives:
