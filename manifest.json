@@ -1,109 +1,109 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.29",
+  "packVersion": "v8.2-wahha.30",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.29/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.30/",
   "files": [
     {
       "name": "mods-0.zip",
-      "sha256": "ad14def82f5cd5b88c2dfd85af425fcebd7de3fcdad6083fb48ba45f46be5b03",
-      "size": 76309490
+      "sha256": "0d7043abca02323c8509d802d9d1fd123c0ea535c63ddfdedb41a864760c6bc9",
+      "size": 76310076
     },
     {
       "name": "mods-1.zip",
-      "sha256": "9fbef2035da31cc5aaf06f37ddf6cf52c8b1ead7da7890c8670606e3477fce21",
-      "size": 15779926
+      "sha256": "6716bf3e0816df7e0dc5f631b640c0f36d6a6d15230eab7ec162fe0bea18307f",
+      "size": 15781525
     },
     {
       "name": "mods-2.zip",
-      "sha256": "042bbe01fb057e07cab9d6d263a48dedf8a42d371660b451aa76257c7921bbd1",
-      "size": 37419365
+      "sha256": "cd0cacab8bf6e14b8b0b256d650a234d09c145f6db84f091733c0c8329242750",
+      "size": 37419490
     },
     {
       "name": "mods-3.zip",
-      "sha256": "3d254fe12a8b18e9480b4c735b8c2aa8a6e14c08ec58028dc8e2fc2cc7b05ddd",
-      "size": 36986112
+      "sha256": "6863b3da6e59e5ad39463497cac82ee9e243d58deaca6d42aae9fcf771000e6d",
+      "size": 36987133
     },
     {
       "name": "mods-4.zip",
-      "sha256": "e8e4c5fdeb4ffa92b1854e0ec55fd8be6515b2b41caaedeb135034825aff951a",
-      "size": 13509252
+      "sha256": "ac0e9296a3661bf993ec9257b83c7dfd89c784cefa65303b4dc588e26605c1d3",
+      "size": 13514034
     },
     {
       "name": "mods-5.zip",
-      "sha256": "eb836d1ae8d71692c21d212a6d3073bf9991cc685dfccc6c2ae87bd8ae9f32bc",
-      "size": 97119843
+      "sha256": "847a22387afb3fa981e056b7094474cd478eee0c88a4b5ef5366d76719523fee",
+      "size": 97123565
     },
     {
       "name": "mods-6.zip",
-      "sha256": "5665c520620954521ab859b938e0b916a3cb0665185c99ab2d6b75932e880f93",
-      "size": 83401179
+      "sha256": "5b09b17ffc094b34927dd8227f9ac35a7a6cbfc9af2487865e8e06762244a0b8",
+      "size": 83402800
     },
     {
       "name": "mods-7.zip",
-      "sha256": "c2356c252095689a27ba22975d7bfa4caf35c625e8e6d420ea1555b38a3feda9",
-      "size": 41170017
+      "sha256": "9b836e58dc9262dfd6aad9ceddace35d1f963266881c440a7b61fcf53bef3a91",
+      "size": 41172773
     },
     {
       "name": "mods-8.zip",
-      "sha256": "238d66477f3ecf3d07ea1a49d0cd158edc9fa774967950ed8cfbc9d1b6bed5fc",
-      "size": 19446750
+      "sha256": "52565f97d31dba17a6c2c73d1455e57a5856cdeb70793c2b1be6f3b14d83f07c",
+      "size": 19447535
     },
     {
       "name": "mods-9.zip",
-      "sha256": "161e3ad1fb56c601db4569281fc8ebf864eb39591de6452a784db5d718a56119",
-      "size": 13985951
+      "sha256": "231339adcbbc91bdfb7e64866ccec98258368b357a5697939c615d987a311940",
+      "size": 13992949
     },
     {
       "name": "mods-a.zip",
-      "sha256": "5f53b57046b7e1039af682640b529828dbc8ba2c887cdb8edba4a6e69d0146d6",
-      "size": 32861012
+      "sha256": "6ef5b521944b87eeed55269f314c6ed9e87913f193bf58ca27cbf1a5dd41b0c5",
+      "size": 32861832
     },
     {
       "name": "mods-b.zip",
-      "sha256": "6433c1df4b14b3bb48e12eaa41e2a9c4546395ad629c1a4654beb2f2964a1903",
-      "size": 23523916
+      "sha256": "2f9bad159deac09c9039d8f7a3fe636aea1b9881a5b61baecaad52a43e99fb79",
+      "size": 23524242
     },
     {
       "name": "mods-c.zip",
-      "sha256": "98554a3fc67cfa054ba382e8ceed9ed07bb80e9f2c415cfd84f98d94996c395c",
-      "size": 73477068
+      "sha256": "e418526dd202cbf36650d2a4a52f70284ce854c76f0c782786838a46ab61c952",
+      "size": 73477185
     },
     {
       "name": "mods-d.zip",
-      "sha256": "d1963546555dd0a956ae251fc6ad57fe8fdf2cde4b8bb6427bf9b02e0c43e864",
-      "size": 41094966
+      "sha256": "a436f05b09656a75d76c9eebfe35edf15f65c86d11fb3384535aa66c8f026839",
+      "size": 41096899
     },
     {
       "name": "mods-e.zip",
-      "sha256": "32188f9e87ee42563546d11ad8aba762a30cd199727c2bf6a743ff6dc33db568",
-      "size": 66721394
+      "sha256": "4aa4aaff2f4d4a308521c3e6e97c8be24248955dffb777e91cd1c83dd13ec46d",
+      "size": 66721529
     },
     {
       "name": "mods-f.zip",
-      "sha256": "61eb81fa489525facb5e9c883ed86919377c6276e0240196a2731e2ccd0021bc",
-      "size": 91389615
+      "sha256": "365397e99d3630dbef9cd66eec3d820f579cb86c8f7b97fc6707aa23c3c8e853",
+      "size": 91391091
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "61281acd0eeec7728f08ff07ff09983a006da0ab7ed07a99eda5caef0812c8aa",
-      "size": 12815828
+      "sha256": "63b30e9d4b4423a23c2ec16c3707bd4538a7e344793397215919075c33ee7863",
+      "size": 12817222
     },
     {
       "name": "kubejs-assets.zip",
-      "sha256": "e2738633e1e49f55f8cae7070cf201e61d40ddbe2ba07b7f357bb35d57570d45",
-      "size": 181248672
+      "sha256": "340b708ab1fdb5e3f860b806f8603e9f66109c74cd583765f02f19013a861264",
+      "size": 181248849
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "3b77e2c7ec17b4ddf0416b55c3567e57c1be70b6f960836b3b9ed11a019e5338",
-      "size": 175106
+      "sha256": "619dbecaec4e9964701773437c3d3544f2936b4536f1cc64c3387b02c62f87ea",
+      "size": 175111
     },
     {
       "name": "shaderpacks.zip",
-      "sha256": "7df0652b6e5d2d3cb87e39d0519b4f5ead676a2ec03034d544571cfd638a6a8f",
-      "size": 3506246
+      "sha256": "0d924353424bdf7fa479b496de684ab91dce25ca56dfad8d4566d3de3b3e4580",
+      "size": 3506254
     }
   ],
   "mods": [
@@ -310,6 +310,7 @@
     "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
     "dynamiclights-1.21.1.2NF.jar",
     "easy-villagers-neoforge-1.21.1-1.1.42.jar",
+    "eawireless-1.0.0.jar",
     "elevatorid-neoforge-1.21.1-1.11.4.jar",
     "enchdesc-neoforge-1.21.1-21.1.11.jar",
     "enderdrives-neoforge-1.21.1-1.5.23.jar",
