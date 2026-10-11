@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.30",
+  "packVersion": "v8.2-wahha.31",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.30/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.31/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -27,13 +27,13 @@
     },
     {
       "name": "mods-4.zip",
-      "sha256": "ac0e9296a3661bf993ec9257b83c7dfd89c784cefa65303b4dc588e26605c1d3",
-      "size": 13514034
+      "sha256": "8f2e216ccb3861510dee62c313497a5d064c525b56549bc86bb2f6e4bfb86429",
+      "size": 13509277
     },
     {
       "name": "mods-5.zip",
-      "sha256": "847a22387afb3fa981e056b7094474cd478eee0c88a4b5ef5366d76719523fee",
-      "size": 97123565
+      "sha256": "14ba26e124d177102f087fa40443ee7b7bb405d9b39c19957f1605f1a9e86d3d",
+      "size": 97128327
     },
     {
       "name": "mods-6.zip",
@@ -87,7 +87,7 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "63b30e9d4b4423a23c2ec16c3707bd4538a7e344793397215919075c33ee7863",
+      "sha256": "3f347d80903658d233d782f3fe39644819a270432977b87c590618c535d9abcc",
       "size": 12817222
     },
     {
@@ -310,7 +310,7 @@
     "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
     "dynamiclights-1.21.1.2NF.jar",
     "easy-villagers-neoforge-1.21.1-1.1.42.jar",
-    "eawireless-1.0.0.jar",
+    "eawireless-1.0.1.jar",
     "elevatorid-neoforge-1.21.1-1.11.4.jar",
     "enchdesc-neoforge-1.21.1-21.1.11.jar",
     "enderdrives-neoforge-1.21.1-1.5.23.jar",
