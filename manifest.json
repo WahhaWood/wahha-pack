@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.23",
+  "packVersion": "v8.2-wahha.24",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.23/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.24/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "f11147c550fd6b8d184510248464acb6f8bde9a08015d88635e8cb606eb1a9dd",
-      "size": 12817499
+      "sha256": "151a6330d2d6877d09be368c4df35809c53dad50ad44fba0618036ce785e5bdc",
+      "size": 12817497
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,8 +97,8 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "c81e48e02a11eb527c121036a65222a174370aa2de0f21009683b9eb2a97f35c",
-      "size": 172614
+      "sha256": "b5a4dbfa862f2af2153b3dc9da9e5f0986fe336de4ea0a451515643c725dd4cc",
+      "size": 175111
     },
     {
       "name": "shaderpacks.zip",
@@ -3980,6 +3980,12 @@
     "kubejs/data/botanypots/structure/1000_pots.nbt",
     "kubejs/data/botanypots/structure/100_pots.nbt",
     "kubejs/data/botanypots/structure/8000_pots.nbt",
+    "kubejs/data/botanytrees/loot_table/tree_drops/allthemodium/ancient.json",
+    "kubejs/data/botanytrees/loot_table/tree_drops/allthemodium/demonic.json",
+    "kubejs/data/botanytrees/loot_table/tree_drops/allthemodium/soul.json",
+    "kubejs/data/botanytrees/recipe/allthemodium/ancient.json",
+    "kubejs/data/botanytrees/recipe/allthemodium/demonic.json",
+    "kubejs/data/botanytrees/recipe/allthemodium/soul.json",
     "kubejs/data/compactmachines/advancement/recipes/misc/new_machine_colossal.json",
     "kubejs/data/compactmachines/advancement/recipes/misc/new_machine_farming.json",
     "kubejs/data/compactmachines/advancement/recipes/misc/new_machine_giant.json",
