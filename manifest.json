@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.36",
+  "packVersion": "v8.2-wahha.37",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.36/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.37/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -52,8 +52,8 @@
     },
     {
       "name": "mods-9.zip",
-      "sha256": "ef8cca7bcf61ac9f424a5664f30daf4bb1cfd1c4563f9b686c22618fd6fe2711",
-      "size": 14011599
+      "sha256": "3e777982a433c9ceb617d5b143519abe26a40d0ebe6dab85a0479bb6da1debc8",
+      "size": 14012216
     },
     {
       "name": "mods-a.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "179de88c12f7f8eebe6a2013631194d9bcd440ddcfceb45448826ef26056ee37",
-      "size": 12817586
+      "sha256": "dff9173b36a5ec56194417af1cddb94c207318397a26df578b2b9a4ae03a7296",
+      "size": 12818618
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "2d480f42c314c6f3015787772bac43be65fc066035dfcb7d3544bf21332e8859",
+      "sha256": "5436bc56c652c51bb365c0bad4aa8fc4470ef87d077baa61ff35cc071bb89d0f",
       "size": 175111
     },
     {
@@ -1124,6 +1124,7 @@
     "config/cyclopscore-common.toml",
     "config/darkmodeeverywhere-client.toml",
     "config/darkmodeeverywhereshaders.json",
+    "config/degrinderturbo-common.toml",
     "config/dimstorage-server.toml",
     "config/disenchanting_table-client.toml",
     "config/disenchanting_table-server.toml",
