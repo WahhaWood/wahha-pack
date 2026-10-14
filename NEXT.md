@@ -1,6 +1,8 @@
-# NEXT.md — деплой industrialreforged 1.0.9.5-beta и thaumcraft 1.0.6.3 (v8.2-wahha.40)
+# NEXT.md — деплой thaumcraft 1.0.6.5 (v8.2-wahha.41)
 
-- [x] industrialreforged-1.0.9.5-beta.jar и thaumcraft-1.0.6.3.jar в профиль Modrinth `mods/` (sha256 d57b16… и f07898…), старые 1.0.9.4-beta и 1.0.6.2 удалены
-- [x] Собрать пак `build-pack.py --tag v8.2-wahha.40`, 20 архивов, jar внутри mods-4/mods-5 сверены по sha256
-- [x] Залить zip в GitHub Release v8.2-wahha.40 (20/20 ассетов)
-- [x] manifest.json в репо, commit + push
+- [x] thaumcraft-1.0.6.5.jar в профиль Modrinth `mods/` (sha256 cbdecb…), 1.0.6.3 удалён. Jar совпадает с `core/build/libs`
+- [x] Пак `build-pack.py --tag v8.2-wahha.41`, 20 архивов, jar внутри mods-9.zip сверен по sha256
+- [x] Залить zip в GitHub Release v8.2-wahha.41 (20/20 ассетов)
+- [x] manifest.json в репо, commit + push; `wahhawood.github.io/wahha-pack/manifest.json` отдаёт v8.2-wahha.41
+- В архивах overlay-config и kubejs-code изменились 215 файлов профиля, которые мод пересоздал при запуске игры
+  (конфиги, `.snbt`, `.json`). Их не трогал, в сборку ушли как есть.
