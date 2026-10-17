@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.47",
+  "packVersion": "v8.2-wahha.48",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.47/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.48/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -37,8 +37,8 @@
     },
     {
       "name": "mods-6.zip",
-      "sha256": "5b09b17ffc094b34927dd8227f9ac35a7a6cbfc9af2487865e8e06762244a0b8",
-      "size": 83402800
+      "sha256": "81c8de1f0e25c8bcb13a404246b927504a203116631faccd8b3492f9b0e9046e",
+      "size": 83278606
     },
     {
       "name": "mods-7.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "c13adf7e2ea2c6829f9f3d591e2f22dec41736367f6398f9151d5c60b3f1cf4d",
-      "size": 18077877
+      "sha256": "0c27bb5c719d59d49297a1fdca78e280bc7e47c458911ebc2ead374e99a46060",
+      "size": 18077723
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "6894fb191838b8f539fe948b8316c7fd3ba3771f02240410f45b80a0832154de",
+      "sha256": "fc63389da05531693c4652fbeaf70775a30bd4c09f91150deec660e871b797e3",
       "size": 178322
     },
     {
@@ -218,7 +218,6 @@
     "accelerated-decay-neoforge-21.0.0.jar",
     "accelplus-1.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
-    "advanced-xray-neoforge-21.0.0.jar",
     "ae2channels-1.1.4.jar",
     "ae2ct-1.21.1-1.1.1.jar",
     "ae2importexportcard-1.21.1-1.9.0.jar",
@@ -530,6 +529,7 @@
     "config/NoChatReports/NCR-Encryption.json",
     "config/NoChatReports/NCR-ServerPreferences.json",
     "config/NoChatReports/README.md",
+    "config/accelplus-common.toml",
     "config/accessories.json5",
     "config/actuallyadditions-common.toml",
     "config/advanced_ae-client.toml",
@@ -2539,7 +2539,6 @@
     "config/watut-server.toml",
     "config/waystones-common.toml",
     "config/wstweaks.cfg",
-    "config/xray-client.toml",
     "config/yacl.json5",
     "defaultconfigs/ftbessentials-server.snbt",
     "defaultconfigs/ftbultimine/ftbultimine-server.snbt",
