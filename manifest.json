@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.44",
+  "packVersion": "v8.2-wahha.45",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.44/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.45/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -72,8 +72,8 @@
     },
     {
       "name": "mods-d.zip",
-      "sha256": "9c3186fc539794d0c73e11756aff34dbda535d9b31f123a9ee0658becb6a94dd",
-      "size": 47348408
+      "sha256": "4415e619b3b77d12578b2e280b879785231a4ead6a026b22adc24e3776a6115f",
+      "size": 47362950
     },
     {
       "name": "mods-e.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "01ba45bb6f7d7217dc43a249a297dca8179a262928fab27687d54c5239c98f8d",
-      "size": 18077441
+      "sha256": "57737c855b361c569220b4bf42867e9f364289c82284799bfc3e0992fecb84ad",
+      "size": 18077886
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "8fb4994725114796a88ed9356c2247c3e87190e069dd24407a41d6d28daba439",
+      "sha256": "8f32eaa89de4e0191480fdcd520cabd08b11a16ae8448ef30b9b73ce5d37eac7",
       "size": 178322
     },
     {
@@ -2286,6 +2286,7 @@
     "config/jei/jei-client.ini",
     "config/jei/jei-client.ini.bak.1",
     "config/jei_mekanism_multiblocks-client.toml",
+    "config/jei_mekanism_multiblocks-saved_data.nbt",
     "config/jeistuff-common.toml",
     "config/journeymap-server.toml",
     "config/jumpboat-server.toml",
