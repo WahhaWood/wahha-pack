@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.48",
+  "packVersion": "v8.2-wahha.49",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.48/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.49/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -17,8 +17,8 @@
     },
     {
       "name": "mods-2.zip",
-      "sha256": "bbacf1dbefa731e624817a496c1bad6038cbfae063996c6df45715555bd046de",
-      "size": 37501108
+      "sha256": "091add4e6c7d14f18f8d321b4c20881aff521c8bcf5e4ac8c5264dff193f00d2",
+      "size": 37494702
     },
     {
       "name": "mods-3.zip",
@@ -72,8 +72,8 @@
     },
     {
       "name": "mods-d.zip",
-      "sha256": "1285060e97f0f174fdee88d40b249396b787c8aac19603809162d70ae7af4464",
-      "size": 47364676
+      "sha256": "9c55204e652d5eb58813a9d1aa5b39b17d78d8e9dab2326ffc40894dd810afd8",
+      "size": 47363948
     },
     {
       "name": "mods-e.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "0c27bb5c719d59d49297a1fdca78e280bc7e47c458911ebc2ead374e99a46060",
-      "size": 18077723
+      "sha256": "2afe8b1fb314c2eb6bb3e6dbb1fc7e64a2fed24f3d4839b0f24e34967c330c5c",
+      "size": 18077464
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "fc63389da05531693c4652fbeaf70775a30bd4c09f91150deec660e871b797e3",
+      "sha256": "2e6558c190973a21e898eb0cbc96392c513012752e167ed41047dd3a35ce5272",
       "size": 178322
     },
     {
@@ -216,7 +216,6 @@
     "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
     "ZeroCore2-1.21.1-2.4.21.jar",
     "accelerated-decay-neoforge-21.0.0.jar",
-    "accelplus-1.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
     "ae2channels-1.1.4.jar",
     "ae2ct-1.21.1-1.1.1.jar",
@@ -529,7 +528,6 @@
     "config/NoChatReports/NCR-Encryption.json",
     "config/NoChatReports/NCR-ServerPreferences.json",
     "config/NoChatReports/README.md",
-    "config/accelplus-common.toml",
     "config/accessories.json5",
     "config/actuallyadditions-common.toml",
     "config/advanced_ae-client.toml",
