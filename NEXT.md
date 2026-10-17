@@ -1,6 +1,7 @@
-# NEXT.md — деплой botania 1.1.0 (v8.2-wahha.44)
+# NEXT.md — деплой industrialreforged 1.1.1-beta + ME-молекулярный преобразователь (v8.2-wahha.45)
 
-- [x] botania-neoforge-1.21.1-1.1.0.jar в профиль Modrinth `mods/` (из `projects/MODS/`), 1.0.1-SNAPSHOT убран
-- [x] `build-pack.py --tag v8.2-wahha.44 --out out44`, 20 архивов, jar лежит в `mods-0.zip`
-- [x] GitHub Release v8.2-wahha.44 (20/20 ассетов)
-- [x] manifest.json в репо, commit + push
+- [x] jar (SHA-256 08cab4f7…) в профиль Modrinth `mods/` вместо прежнего 1.1.1-beta (то же имя файла, другое содержимое)
+- [x] `build-pack.py --tag v8.2-wahha.45 --out out45`, 20 архивов
+- [x] GitHub Release v8.2-wahha.45 (20/20 ассетов)
+- [x] manifest.json в репо, commit + push (53535fb)
+- [ ] NEXT.md закоммитить вручную; сервер (`build-server.py`) не пересобирался
