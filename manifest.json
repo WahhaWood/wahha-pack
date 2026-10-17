@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.45",
+  "packVersion": "v8.2-wahha.46",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.45/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.46/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -17,8 +17,8 @@
     },
     {
       "name": "mods-2.zip",
-      "sha256": "091add4e6c7d14f18f8d321b4c20881aff521c8bcf5e4ac8c5264dff193f00d2",
-      "size": 37494702
+      "sha256": "b7ec974ea460519804b8eba9e5a1144af951cad1f3c80466e7da43f7d581a416",
+      "size": 37501112
     },
     {
       "name": "mods-3.zip",
@@ -72,8 +72,8 @@
     },
     {
       "name": "mods-d.zip",
-      "sha256": "4415e619b3b77d12578b2e280b879785231a4ead6a026b22adc24e3776a6115f",
-      "size": 47362950
+      "sha256": "1285060e97f0f174fdee88d40b249396b787c8aac19603809162d70ae7af4464",
+      "size": 47364676
     },
     {
       "name": "mods-e.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "57737c855b361c569220b4bf42867e9f364289c82284799bfc3e0992fecb84ad",
-      "size": 18077886
+      "sha256": "b5d2273df443577c8406cd8d20621ba2764135779fbede37ff41880acc7f9e02",
+      "size": 18077877
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "8f32eaa89de4e0191480fdcd520cabd08b11a16ae8448ef30b9b73ce5d37eac7",
+      "sha256": "6894fb191838b8f539fe948b8316c7fd3ba3771f02240410f45b80a0832154de",
       "size": 178322
     },
     {
@@ -216,6 +216,7 @@
     "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
     "ZeroCore2-1.21.1-2.4.21.jar",
     "accelerated-decay-neoforge-21.0.0.jar",
+    "accelplus-1.0.0.jar",
     "additional_lights-neoforge-1.21-2.1.10.jar",
     "advanced-xray-neoforge-21.0.0.jar",
     "ae2channels-1.1.4.jar",
