@@ -1,4 +1,14 @@
-# NEXT.md — v8.2-wahha.51: Botania 1.1.2 и IR 1.1.3-beta из MODS
+# NEXT.md — v8.2-wahha.52: IR 1.1.4-beta, Thaumcraft 1.0.7.0, ThaumicEnergistics 1.0.5.2
+
+- [x] IR 1.1.4-beta (`13e5d989…`): ME-машины — расчёт автокрафта по паттернам ME-машин пакетом (0,5 → 0,05 с на 20 000), байты плана в 2–7 раз меньше, при отмене автокрафта входы из очереди машин возвращаются в сеть; очередь 10 240. dev-сервер: tests_me 37/37, tests_me_craft 11/11, bench_me ок
+- [x] Thaumcraft 1.0.6.9 → 1.0.7.0 (`4f00729a…`), ThaumicEnergistics 1.0.5.1 → 1.0.5.2 (`cc170396…`) — из `../MODS`; остальные наши моды совпадали с профилем
+- [x] Профиль Modrinth: старые jar убраны в scratchpad сессии (не удалены окончательно: откат — zip из `out51`), новые положены в `mods/`
+- [x] `build-pack.py --tag v8.2-wahha.52 --out out52`, манифест запушен, GitHub Release v8.2-wahha.52 (20/20)
+- [ ] GitHub Pages: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.52`
+- [ ] Сервер: заменить `mods/industrialreforged-1.1.3-beta.jar` на `1.1.4-beta`, `thaumcraft-1.0.6.9.jar` на `1.0.7.0`, `thaumicenergistics-1.0.5.1.jar` на `1.0.5.2`; botania 1.1.2 уже в .51
+- [ ] Игру в профиле Modrinth перезапустить (во время деплоя она была запущена)
+
+# Прошлый релиз: v8.2-wahha.51
 
 - [x] Из `../MODS` взяты новые jar: `botania-neoforge-1.21.1-1.1.2.jar` (было 1.1.1), `industrialreforged-1.1.3-beta.jar` (было 1.1.2-beta). Остальные (degrinder, eawireless, ejecttweak, thaumcraft, thaumicenergistics) совпадают по SHA-256 с профилем
 - [x] Профиль Modrinth: старые jar перенесены в scratchpad (не удалены), новые положены в `mods/`
