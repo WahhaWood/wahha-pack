@@ -4,7 +4,7 @@
 - [x] Thaumcraft 1.0.6.9 → 1.0.7.0 (`4f00729a…`), ThaumicEnergistics 1.0.5.1 → 1.0.5.2 (`cc170396…`) — из `../MODS`; остальные наши моды совпадали с профилем
 - [x] Профиль Modrinth: старые jar убраны в scratchpad сессии (не удалены окончательно: откат — zip из `out51`), новые положены в `mods/`
 - [x] `build-pack.py --tag v8.2-wahha.52 --out out52`, манифест запушен, GitHub Release v8.2-wahha.52 (20/20)
-- [ ] GitHub Pages: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.52`
+- [x] GitHub Pages: проверено — отдаёт v8.2-wahha.52; было: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.52`
 - [ ] Сервер: заменить `mods/industrialreforged-1.1.3-beta.jar` на `1.1.4-beta`, `thaumcraft-1.0.6.9.jar` на `1.0.7.0`, `thaumicenergistics-1.0.5.1.jar` на `1.0.5.2`; botania 1.1.2 уже в .51
 - [ ] Игру в профиле Modrinth перезапустить (во время деплоя она была запущена)
 
