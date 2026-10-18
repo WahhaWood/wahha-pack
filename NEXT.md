@@ -1,4 +1,13 @@
-# NEXT.md — v8.2-wahha.50: IR 1.1.2-beta и Botania 1.1.1 (пакетная выдача ME-машинам)
+# NEXT.md — v8.2-wahha.51: Botania 1.1.2 и IR 1.1.3-beta из MODS
+
+- [x] Из `../MODS` взяты новые jar: `botania-neoforge-1.21.1-1.1.2.jar` (было 1.1.1), `industrialreforged-1.1.3-beta.jar` (было 1.1.2-beta). Остальные (degrinder, eawireless, ejecttweak, thaumcraft, thaumicenergistics) совпадают по SHA-256 с профилем
+- [x] Профиль Modrinth: старые jar перенесены в scratchpad (не удалены), новые положены в `mods/`
+- [x] `build-pack.py --tag v8.2-wahha.51 --out out51`: изменились mods-2, -4, -5, -a (jar переехали между корзинами по имени), overlay-config (только переписанный модами `ftbchunks-client.snbt` с тем же содержимым в другом порядке и даты в `iris`/`asyncparticles`), kubejs-code без изменений
+- [x] Манифест запушен, GitHub Release v8.2-wahha.51 (20/20)
+- [ ] GitHub Pages: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.51` (на момент деплоя отдавал `.50`)
+- [ ] Сервер: заменить `mods/botania-neoforge-1.21.1-1.1.1.jar` на `botania-neoforge-1.21.1-1.1.2.jar`, `mods/industrialreforged-1.1.2-beta.jar` на `industrialreforged-1.1.3-beta.jar`
+
+# Прошлый релиз: v8.2-wahha.50 — IR 1.1.2-beta и Botania 1.1.1 (пакетная выдача ME-машинам)
 
 - [x] industrialreforged `791e7687…`: ME-машины откатаны к .45 (1024 оп/т, буфер 100M AE, без Applied Flux, без пакетной передачи), пожиратель 4096/т
 - [x] accelplus: jar и `config/accelplus-common.toml` перенесены в `removed-from-pack/` профиля Modrinth (вернуть — переложить обратно)
