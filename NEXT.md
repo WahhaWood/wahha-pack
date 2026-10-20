@@ -4,7 +4,7 @@
 - [x] Botania 1.1.5 → 1.2.0 (`8a2f9393…`): AE2 необязателен, ME-машины рецептов переехали в IR (нужны оба мода вместе)
 - [x] Thaumcraft 1.0.7.0 → 1.0.8.0 (`1eddbadc…`): аспекты для предметов IR, Botania, AE2 и металлов по общим тегам
 - [x] `build-pack.py --tag v8.2-wahha.57 --out out57`, GitHub Release v8.2-wahha.57 (20/20)
-- [ ] GitHub Pages: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.57`
+- [x] GitHub Pages: проверено — отдаёт v8.2-wahha.57
 - [ ] Сервер: заменить `botania-neoforge-1.21.1-1.1.5.jar` на `1.2.0`, `industrialreforged-1.1.7.3-beta.jar` на `1.1.8-beta`, `thaumcraft-1.0.7.0.jar` на `1.0.8.0`
 - [ ] Игру в профиле перезапустить; откат — zip из `out56`
 
