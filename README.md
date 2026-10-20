@@ -19,7 +19,7 @@
 - **Основа.** Профиль All the Mods 10 (ATM10), Minecraft 1.21.1, NeoForge 21.1.255.
 - **Оверлей.** Наши конфиги, скрипты KubeJS, ассеты и шейдерпаки поверх основы.
 - **Свои моды.** Собираются из исходников и попадают в сборку как локальные jar:
-  [Botania Reforged](https://github.com/WahhaWood/botaniareforged-core),
+  [Botania Reforged](https://github.com/WahhaWood/botaniareforged),
   [IndustrialReforged](https://github.com/WahhaWood/industrialreforged),
   [Thaumic Reforged](https://github.com/WahhaWood/thaumicreforged) и несколько небольших утилит.
 
