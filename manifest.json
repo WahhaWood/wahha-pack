@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.56",
+  "packVersion": "v8.2-wahha.57",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.56/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.57/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -12,8 +12,8 @@
     },
     {
       "name": "mods-1.zip",
-      "sha256": "6716bf3e0816df7e0dc5f631b640c0f36d6a6d15230eab7ec162fe0bea18307f",
-      "size": 15781525
+      "sha256": "90d95e1abf7d074e16d6b28b55697ecd25b3ec8f703c53d2c3d3b646caa8269f",
+      "size": 37381436
     },
     {
       "name": "mods-2.zip",
@@ -22,8 +22,8 @@
     },
     {
       "name": "mods-3.zip",
-      "sha256": "306e97a9399716d2ee0d83fb79a12c258ccaf72ff1e58d72861597a9d38c2fd9",
-      "size": 50753584
+      "sha256": "29985989df7ff8ed6d331c788a09dfcd44b77c842864d79acf1250ccd1979b66",
+      "size": 36990466
     },
     {
       "name": "mods-4.zip",
@@ -57,13 +57,13 @@
     },
     {
       "name": "mods-a.zip",
-      "sha256": "56b334deb62dd68140b24a1ea0a2375f498e620b9ef6d0e26e49d8dddbb7d28a",
-      "size": 55532221
+      "sha256": "6ef5b521944b87eeed55269f314c6ed9e87913f193bf58ca27cbf1a5dd41b0c5",
+      "size": 32861832
     },
     {
       "name": "mods-b.zip",
-      "sha256": "7e6f24cfb61cb96b6e98e25611987166063b0029c53c2bc13cca6c1ad40899fe",
-      "size": 29825053
+      "sha256": "2f9bad159deac09c9039d8f7a3fe636aea1b9881a5b61baecaad52a43e99fb79",
+      "size": 23524242
     },
     {
       "name": "mods-c.zip",
@@ -72,8 +72,8 @@
     },
     {
       "name": "mods-d.zip",
-      "sha256": "a436f05b09656a75d76c9eebfe35edf15f65c86d11fb3384535aa66c8f026839",
-      "size": 41096899
+      "sha256": "4a5908cae8a29e74959fc7aa0c768d966e5954a82b89aa96e4b71e04364f5887",
+      "size": 48460213
     },
     {
       "name": "mods-e.zip",
@@ -82,13 +82,13 @@
     },
     {
       "name": "mods-f.zip",
-      "sha256": "365397e99d3630dbef9cd66eec3d820f579cb86c8f7b97fc6707aa23c3c8e853",
-      "size": 91391091
+      "sha256": "0f8ddaf5a079ad64a9f5da21287096bb005c353b8d05f057540d7f0b2173aa75",
+      "size": 105162098
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "884d11ec29735762dabcdc19ca360aeaf942879b67fb23d911f8623d25c383e0",
-      "size": 18077509
+      "sha256": "e8b201fe9b94d879a0abf2e8770ddf6f1eb3b7ba517e64947c7d5d7da04256be",
+      "size": 18077515
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "73db3ba0c148e7a5e3abbe5ed0d293c248bfd0e56fe01f721b220e7e7c8b82e0",
+      "sha256": "f6dfc99e1ec7b2da60b170a9ea304bcf9824769853c3721acd16801a1455c223",
       "size": 178322
     },
     {
@@ -256,7 +256,7 @@
     "blockui-1.0.212-1.21.1-snapshot.jar",
     "bookshelf-neoforge-1.21.1-21.1.81.jar",
     "borderless-neoforge-1.21.1-1.7.5_1-all.jar",
-    "botania-neoforge-1.21.1-1.1.5.jar",
+    "botania-neoforge-1.21.1-1.2.0.jar",
     "buildinggadgets2-1.3.9.jar",
     "bwncr-neoforge-1.21.1-3.20.4.jar",
     "cable_facades-1.21.1-neoforge-2.1.4.jar",
@@ -362,7 +362,7 @@
     "incontrol-1.21-10.3.0.jar",
     "industrial-foregoing-souls-1.21.1-1.10.7.jar",
     "industrialforegoing-1.21-3.6.39.jar",
-    "industrialreforged-1.1.7.3-beta.jar",
+    "industrialreforged-1.1.8-beta.jar",
     "invtweaks-1.21.1-1.3.2.jar",
     "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
     "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
@@ -474,7 +474,7 @@
     "sussysniffers-1.21.1-0.1.3.jar",
     "t_and_t-fabric-neoforge-1.13.11.jar",
     "tesseract-api-neoforge-1.12.16-1.21.1.jar",
-    "thaumcraft-1.0.7.0.jar",
+    "thaumcraft-1.0.8.0.jar",
     "thaumicenergistics-1.0.5.2.jar",
     "tiab-neoforge-6.5.4.jar",
     "titanium-1.21-4.0.50.jar",

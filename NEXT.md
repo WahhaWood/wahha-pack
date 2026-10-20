@@ -1,4 +1,14 @@
-# NEXT.md — v8.2-wahha.55: Botania 1.1.5
+# NEXT.md — v8.2-wahha.57: IR 1.1.8-beta, Botania 1.2.0, Thaumcraft 1.0.8.0
+
+- [x] IR 1.1.7.3-beta → 1.1.8-beta (`e8d24637…`): ME-машины для рецептов Botania (инфузер маны, аптекарь, рунический алтарь, агломерационная фабрика, рынок Альфхейма), один CPU-миксин на оба семейства машин
+- [x] Botania 1.1.5 → 1.2.0 (`8a2f9393…`): AE2 необязателен, ME-машины рецептов переехали в IR (нужны оба мода вместе)
+- [x] Thaumcraft 1.0.7.0 → 1.0.8.0 (`1eddbadc…`): аспекты для предметов IR, Botania, AE2 и металлов по общим тегам
+- [x] `build-pack.py --tag v8.2-wahha.57 --out out57`, GitHub Release v8.2-wahha.57 (20/20)
+- [ ] GitHub Pages: проверить, что `wahhawood.github.io/wahha-pack/manifest.json` отдаёт `v8.2-wahha.57`
+- [ ] Сервер: заменить `botania-neoforge-1.21.1-1.1.5.jar` на `1.2.0`, `industrialreforged-1.1.7.3-beta.jar` на `1.1.8-beta`, `thaumcraft-1.0.7.0.jar` на `1.0.8.0`
+- [ ] Игру в профиле перезапустить; откат — zip из `out56`
+
+# Прошлый релиз: v8.2-wahha.55: Botania 1.1.5
 
 - [x] Botania 1.1.4 → 1.1.5 (`f5660235…`) из `../MODS`: запись «Симулятор Гайи» в Лексике (Alfhomancy, с визуализацией мультиблока); структура симулятора дороже: плита 3×3 элементиевых блоков, малахитовые блоки по сторонам основания (вместо элементиевых). Старые симуляторы после обновления «разваливаются», пока структуру не достроят
 - [x] `build-pack.py --tag v8.2-wahha.55 --out out55`: изменились mods-3, mods-a, overlay-config, kubejs-code; GitHub Release v8.2-wahha.55 (20/20)
