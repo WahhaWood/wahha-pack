@@ -1,45 +1,80 @@
-# ATM10-Wahha: сборка для игроков и сервера
+<div align="center">
 
-Раздача модовой сборки **ATM10-Wahha** для WLauncher и для сервера. Основа — профиль All the Mods 10 (ATM10) в Modrinth, поверх него наш оверлей (конфиги, kubejs, свои моды).
+# ATM10-Wahha
 
-Текущая версия: `v8.2-wahha.37` (см. `manifest.json`). Minecraft 1.21.1, NeoForge 21.1.255.
+**Модовая сборка на основе All the Mods 10: 386 модов, свой оверлей и свои моды. Раздаётся через WLauncher.**
+
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A)
+![NeoForge](https://img.shields.io/badge/NeoForge-21.1.255-E68C2D)
+![Release](https://img.shields.io/github/v/release/WahhaWood/wahha-pack)
+
+</div>
+
+Репозиторий — не сам набор модов, а его раздача: манифест, скрипты сборки и удалённый
+конфиг лаунчера. Архивы с модами лежат в [Releases](https://github.com/WahhaWood/wahha-pack/releases),
+а [WLauncher](https://github.com/WahhaWood/WLauncher) по манифесту скачивает и обновляет игру.
+
+## Из чего состоит сборка
+
+- **Основа.** Профиль All the Mods 10 (ATM10), Minecraft 1.21.1, NeoForge 21.1.255.
+- **Оверлей.** Наши конфиги, скрипты KubeJS, ассеты и шейдерпаки поверх основы.
+- **Свои моды.** Собираются из исходников и попадают в сборку как локальные jar:
+  [Botania Reforged](https://github.com/WahhaWood/botaniareforged-core),
+  [IndustrialReforged](https://github.com/WahhaWood/industrialreforged),
+  [Thaumic Reforged](https://github.com/WahhaWood/thaumicreforged) и несколько небольших утилит.
+
+Текущая версия указана в `manifest.json` (поле `packVersion`).
 
 ## Что где лежит
 
 | Файл | Назначение |
-|---|---|
-| `build-pack.py` | собирает клиентскую раздачу: `mods-0…f.zip`, `overlay-config.zip`, `kubejs-assets.zip`, `kubejs-code.zip`, `shaderpacks.zip` и `manifest.json` с SHA-256 |
-| `build-server.py` | собирает серверный архив `ATM10-Wahha-server-<tag>.zip` из того же профиля |
-| `manifest.json` | индекс текущей клиентской сборки. **Главный файл**, его читает WLauncher |
-| `launcher.json` | удалённый конфиг лаунчера: адрес сервера, ник, RAM |
-| `NEXT.md` | статус последнего деплоя |
+| --- | --- |
+| `manifest.json` | индекс клиентской сборки с SHA-256 каждого архива. **Главный файл**, его читает WLauncher |
+| `launcher.json` | удалённый конфиг лаунчера: адрес сервера, ник по умолчанию, объём памяти |
+| `build-pack.py` | собирает клиентскую раздачу из профиля Modrinth |
+| `build-server.py` | собирает серверный архив из того же профиля |
+| `NEXT.md` | журнал последних выпусков и то, что осталось сделать |
+
+## Как это работает
+
+```
+профиль Modrinth ──► build-pack.py ──► mods-*.zip, overlay-config.zip, kubejs-*.zip, shaderpacks.zip
+                                   └─► manifest.json ──► GitHub Pages ──► WLauncher
+                                       zip-архивы     ──► GitHub Releases ──┘
+```
+
+Манифест раздаётся с GitHub Pages, архивы — из Releases (в git лимит файла 100 МБ, в Releases 2 ГБ).
+В `manifest.json` записаны адрес архивов (`baseUrl`), версии Minecraft и NeoForge и хеши, по которым
+лаунчер понимает, что нужно докачать.
 
 ## Выпуск новой версии
 
-1. Поставь новый мод в профиль Modrinth (или обнови jar в `mods/` профиля).
-2. Собери клиентскую раздачу:
+1. Поставьте или обновите мод в профиле Modrinth.
+2. Соберите раздачу:
    ```bash
-   python3 build-pack.py --tag v8.2-wahha.38
-   # по умолчанию профиль: ~/.local/share/ModrinthApp/profiles/All the Mods 10 - ATM10
-   # --profile <путь>, --out <папка>, --minecraft, --neoforge переопределяют значения по умолчанию
+   python3 build-pack.py --tag v8.2-wahha.56 --out out56
    ```
-3. Проверь `manifest.json` и состав архивов в папке `--out` (по умолчанию текущая). Скрипт печатает, что пропущено (симлинки, мусор).
-4. Закоммить и запуши манифест, затем залей zip в GitHub Release с тем же тегом:
+   По умолчанию берётся профиль `~/.local/share/ModrinthApp/profiles/All the Mods 10 - ATM10`.
+   Флаги `--profile`, `--out`, `--minecraft`, `--neoforge` переопределяют значения.
+3. Проверьте `manifest.json` и состав архивов: скрипт печатает, что пропущено.
+4. Запушьте манифест и загрузите архивы в релиз с тем же тегом:
    ```bash
-   git add manifest.json && git commit -m "v8.2-wahha.38" && git push
-   gh release create v8.2-wahha.38 --title v8.2-wahha.38 --notes "" out/*.zip
+   git add manifest.json && git commit -m "v8.2-wahha.56" && git push
+   gh release create v8.2-wahha.56 --title v8.2-wahha.56 --notes "" out56/*.zip
    ```
-   Манифест раздаётся с GitHub Pages, zip-архивы — из Releases (лимит файла в git 100 МБ, в Releases 2 ГБ).
-5. Сервер: `python3 build-server.py --tag v8.2-wahha.38-srv --serverfiles <папка с файлами сервера>`. Архив `ATM10-Wahha-server-<tag>.zip` создаётся в `--out`.
+5. Сервер: `python3 build-server.py --tag v8.2-wahha.56-srv --serverfiles <папка с файлами сервера>`.
+   Архив `ATM10-Wahha-server-<tag>.zip` создаётся в `--out`.
 
-Что `build-pack.py` **не** пакует: сохранения, бэкапы, логи, краш-репорты, `options.txt`, `usercache.json`, шейдеры пользователя и служебные данные модов, которые держат лок (`config/euphoria_patcher/.data.json`). Полный список в docstring скрипта.
+В раздачу **не** попадают: сохранения, бэкапы, логи, краш-репорты, `options.txt`, `usercache.json`,
+пользовательские шейдеры и служебные файлы модов, которые держат блокировку. Полный список — в
+докстринге `build-pack.py`.
 
-## Как WLauncher читает сборку
+## Совместимость
 
-`manifestUrl` в `config.json` лаунчера (и в `launcher.json` этого репозитория) — единственный источник сборки. Запасного пути (packwiz) больше нет: старые файлы `pack.toml`, `index.toml`, `mods/*.pw.toml`, `add-mod.py`, `add-jar.py` удалены. Лаунчер 1.0.4 и новее берёт `manifest.json`. Более старые версии лаунчера могли читать packwiz, их нужно обновить (старые установщики удалены из `WLauncher/dist`).
+Манифест читает WLauncher версии 1.0.4 и новее. Более старые версии лаунчера использовали
+формат packwiz, который больше не поддерживается: их нужно обновить.
 
-## Связи
+## Лицензии
 
-- Наши моды из `../MODS` попадают в сборку как локальные jar: `botania` (`../botaniareforged-core`), `industrialreforged`, `thaumcraft`, `degrinderturbo`, `eawireless`, `ejecttweak`.
-- `ae2channels-1.1.4.jar` в сборке — **донорская** версия. Наш форк `1.1.4-nw1` ещё не выпущен в пак (см. `../ae2channels/NEXT.md`).
-- Сборка нужна лаунчеру: [`../WLauncher`](../WLauncher/README.md).
+Скрипты и манифест этого репозитория — авторские. Моды сборки принадлежат их авторам и
+распространяются на условиях своих лицензий.
