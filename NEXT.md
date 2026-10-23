@@ -1,4 +1,11 @@
-# NEXT — v8.2-wahha.60: IR 1.1.9.2-beta
+# NEXT — v8.2-wahha.61: IR 1.1.9.3-beta
+
+- [x] IR 1.1.9.2-beta → 1.1.9.3-beta: иридиевая руда в сканере 6000 UU (молекулярка 320M без изменений)
+- [x] `build-pack.py --tag v8.2-wahha.61 --out out61`, GitHub Release v8.2-wahha.61
+- [ ] Сервер: заменить `industrialreforged-*.jar` на `1.1.9.3-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out60`
+
+# Прошлый релиз: v8.2-wahha.60: IR 1.1.9.2-beta
 
 - [x] IR 1.1.9.1-beta → 1.1.9.2-beta: иридиевая руда дешевле на треть (сканер 9999 → 6666 UU, молекулярка 480M → 320M)
 - [x] `build-pack.py --tag v8.2-wahha.60 --out out60`, GitHub Release v8.2-wahha.60
