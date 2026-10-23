@@ -1,4 +1,11 @@
-# NEXT — v8.2-wahha.58: IR 1.1.9-beta
+# NEXT — v8.2-wahha.59: IR 1.1.9.1-beta
+
+- [x] IR 1.1.9-beta → 1.1.9.1-beta: ME-репликатор и ME-генератор материи без лимита за тик, остальные ME-машины ×4 крафтов (1024 → 4096), ME-утилизатор ×4
+- [x] `build-pack.py --tag v8.2-wahha.59 --out out59`, GitHub Release v8.2-wahha.59
+- [ ] Сервер: заменить `industrialreforged-1.1.9-beta.jar` на `1.1.9.1-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out58`
+
+# Прошлый релиз: v8.2-wahha.58: IR 1.1.9-beta
 
 - [x] IR 1.1.8-beta → 1.1.9-beta: шерсть (16 цветов, 62 UU ≈ 2,5M FE) в репликаторе, ME-репликатор, рудокрушитель вдвое быстрее
 - [x] `build-pack.py --tag v8.2-wahha.58 --out out58`, GitHub Release v8.2-wahha.58
