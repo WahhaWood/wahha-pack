@@ -1,4 +1,11 @@
-# NEXT — v8.2-wahha.59: IR 1.1.9.1-beta
+# NEXT — v8.2-wahha.60: IR 1.1.9.2-beta
+
+- [x] IR 1.1.9.1-beta → 1.1.9.2-beta: иридиевая руда дешевле на треть (сканер 9999 → 6666 UU, молекулярка 480M → 320M)
+- [x] `build-pack.py --tag v8.2-wahha.60 --out out60`, GitHub Release v8.2-wahha.60
+- [ ] Сервер: заменить `industrialreforged-1.1.9-beta.jar` (или 1.1.9.1) на `1.1.9.2-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out59`
+
+# Прошлый релиз: v8.2-wahha.59: IR 1.1.9.1-beta
 
 - [x] IR 1.1.9-beta → 1.1.9.1-beta: ME-репликатор и ME-генератор материи без лимита за тик, остальные ME-машины ×4 крафтов (1024 → 4096), ME-утилизатор ×4
 - [x] `build-pack.py --tag v8.2-wahha.59 --out out59`, GitHub Release v8.2-wahha.59
