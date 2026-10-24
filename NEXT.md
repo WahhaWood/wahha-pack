@@ -1,3 +1,12 @@
+# NEXT — v8.2-wahha.62: IR 1.1.9.4-beta
+
+- [x] IR 1.1.9.3-beta → 1.1.9.4-beta: энергия выше 2,147G за тик на сторону (соединитель панелей → Flux-плаг), повтор int-вызовов FE
+- [x] `build-pack.py --tag v8.2-wahha.62 --out out62`, GitHub Release v8.2-wahha.62
+- [ ] Сервер: заменить `industrialreforged-*.jar` на `1.1.9.4-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out61`
+
+# Прошлый релиз: v8.2-wahha.61: IR 1.1.9.3-beta
+
 # NEXT — v8.2-wahha.61: IR 1.1.9.3-beta
 
 - [x] IR 1.1.9.2-beta → 1.1.9.3-beta: иридиевая руда в сканере 6000 UU (молекулярка 320M без изменений)
