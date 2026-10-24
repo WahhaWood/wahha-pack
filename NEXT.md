@@ -1,4 +1,12 @@
-# NEXT — v8.2-wahha.62: IR 1.1.9.4-beta
+# NEXT — v8.2-wahha.63: IR 1.1.9.5-beta
+
+- [x] IR 1.1.9.4-beta → 1.1.9.5-beta: повтор int-вызовов FE и в `EnergyUtils` (путь выдачи генераторов), соединитель панелей → Flux-плаг выше 2,147G
+- [x] `build-pack.py --tag v8.2-wahha.63 --out out63`, GitHub Release v8.2-wahha.63
+- [ ] Сервер: заменить `industrialreforged-*.jar` на `1.1.9.5-beta` (fluxlimit 1.1.0 должен стоять)
+- [ ] Игру в профиле перезапустить; откат — zip из `out62`
+
+# Прошлый релиз: v8.2-wahha.62: IR 1.1.9.4-beta
+
 
 - [x] IR 1.1.9.3-beta → 1.1.9.4-beta: энергия выше 2,147G за тик на сторону (соединитель панелей → Flux-плаг), повтор int-вызовов FE
 - [x] `build-pack.py --tag v8.2-wahha.62 --out out62`, GitHub Release v8.2-wahha.62
