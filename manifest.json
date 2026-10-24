@@ -1,9 +1,9 @@
 {
   "pack": "ATM10-Wahha",
-  "packVersion": "v8.2-wahha.64",
+  "packVersion": "v8.2-wahha.65",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
-  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.64/",
+  "baseUrl": "https://github.com/WahhaWood/wahha-pack/releases/download/v8.2-wahha.65/",
   "files": [
     {
       "name": "mods-0.zip",
@@ -42,8 +42,8 @@
     },
     {
       "name": "mods-7.zip",
-      "sha256": "d75c376df64011ec6dba571e45d89b5b74edb378c1ee411c2211d16b2cb4822a",
-      "size": 34972085
+      "sha256": "6eb18faddf45e21c930e99d7405ee6bc3a7b879c7150e0fea6d51e0dae1f71a9",
+      "size": 27587487
     },
     {
       "name": "mods-8.zip",
@@ -62,8 +62,8 @@
     },
     {
       "name": "mods-b.zip",
-      "sha256": "2f9bad159deac09c9039d8f7a3fe636aea1b9881a5b61baecaad52a43e99fb79",
-      "size": 23524242
+      "sha256": "54631e54eafb9f235e1894c1cdad1917ab53d9c877bdef04af6f992c25130a67",
+      "size": 30911084
     },
     {
       "name": "mods-c.zip",
@@ -87,8 +87,8 @@
     },
     {
       "name": "overlay-config.zip",
-      "sha256": "7523ca14385840106c9020f98dc36c7b0dfb5bcbe010f577978ae36882b7e29f",
-      "size": 18077517
+      "sha256": "875eb3d8267bd6523066031c5d9cb3ffe6cc596d5afe269e5032c31cfee27630",
+      "size": 18077525
     },
     {
       "name": "kubejs-assets.zip",
@@ -97,7 +97,7 @@
     },
     {
       "name": "kubejs-code.zip",
-      "sha256": "020f5814cd0dabd4c5851a37b02bc93f941ea7e2decd26a0c6b3e87f03b8af6f",
+      "sha256": "cc96b91c224c8ecde2590ede509aa7be5b2db3d6ca280e5d112369382b6fdead",
       "size": 178322
     },
     {
@@ -362,7 +362,7 @@
     "incontrol-1.21-10.3.0.jar",
     "industrial-foregoing-souls-1.21.1-1.10.7.jar",
     "industrialforegoing-1.21-3.6.39.jar",
-    "industrialreforged-1.1.9.6-beta.jar",
+    "industrialreforged-1.1.9.7-beta.jar",
     "invtweaks-1.21.1-1.3.2.jar",
     "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
     "ironfurnaces-neoforge-1.21.1-4.3.2.jar",

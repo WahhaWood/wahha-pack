@@ -1,3 +1,12 @@
+# NEXT — v8.2-wahha.65: IR 1.1.9.7-beta
+
+- [x] IR 1.1.9.6-beta → 1.1.9.7-beta: сканер/репликатор знает унифицированные слитки и руды AllTheOres (олово, свинец, никель, серебро, уран, сталь, бронза) и yellorium ExtremeReactors2
+- [x] `build-pack.py --tag v8.2-wahha.65 --out out65`, GitHub Release v8.2-wahha.65
+- [ ] Сервер: заменить `industrialreforged-*.jar` на `1.1.9.7-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out64`
+
+# Прошлый релиз: v8.2-wahha.64: IR 1.1.9.6-beta
+
 # NEXT — v8.2-wahha.64: IR 1.1.9.6-beta
 
 - [x] IR 1.1.9.5-beta → 1.1.9.6-beta: в сканер/репликатор добавлены руды и слитки (ваниль, незерит, AllTheOres), 25 рецептов
