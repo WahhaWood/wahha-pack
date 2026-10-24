@@ -1,3 +1,12 @@
+# NEXT — v8.2-wahha.64: IR 1.1.9.6-beta
+
+- [x] IR 1.1.9.5-beta → 1.1.9.6-beta: в сканер/репликатор добавлены руды и слитки (ваниль, незерит, AllTheOres), 25 рецептов
+- [x] `build-pack.py --tag v8.2-wahha.64 --out out64`, GitHub Release v8.2-wahha.64
+- [ ] Сервер: заменить `industrialreforged-*.jar` на `1.1.9.6-beta`
+- [ ] Игру в профиле перезапустить; откат — zip из `out63`
+
+# Прошлый релиз: v8.2-wahha.63: IR 1.1.9.5-beta
+
 # NEXT — v8.2-wahha.63: IR 1.1.9.5-beta
 
 - [x] IR 1.1.9.4-beta → 1.1.9.5-beta: повтор int-вызовов FE и в `EnergyUtils` (путь выдачи генераторов), соединитель панелей → Flux-плаг выше 2,147G
